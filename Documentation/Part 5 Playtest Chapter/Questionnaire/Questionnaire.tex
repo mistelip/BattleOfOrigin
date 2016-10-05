@@ -1,0 +1,370 @@
+\documentclass[11pt,a4paper,titlepage,table]{article}
+\usepackage[a4paper]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{lipsum}
+\usepackage[normalem]{ulem}
+
+\usepackage{amsmath, amssymb, amsfonts, amsthm, fouriernc}
+% mathtools for: Aboxed (put box on last equation in align envirenment)
+\usepackage{microtype} %improves the spacing between words and letters
+
+\usepackage{graphicx}
+\graphicspath{ {./pics/} {./eps/}}
+\usepackage{epsfig}
+\usepackage{epstopdf}
+\usepackage{colortbl}
+
+
+%for questionnaire
+\usepackage{amssymb}
+\usepackage{array}
+\usepackage{tabularx}
+\newcolumntype{S}{>{\centering\arraybackslash}m{4.5em}}
+\newcolumntype{T}{>{\centering\arraybackslash}m{2em}}
+\newcolumntype{U}{>{\centering\arraybackslash}m{1em}}
+\renewcommand{\tabularxcolumn}[1]{m{#1}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% COLOR DEFINITIONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\usepackage{colortbl}
+\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
+\usepackage{float}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\definecolor{MyColor1}{HTML}{75A42E}
+\definecolor{MyColor2}{HTML}{75A42E}
+\definecolor{MyColor3}{HTML}{4D6D1E}
+\definecolor{green1}{HTML}{EAF5DB}
+\definecolor{green2}{HTML}{C2E193}
+\definecolor{maroon}{cmyk}{0,0.87,0.68,0.32}
+\newcommand{\textb}{\color{Black} \usefont{OT1}{lmss}{m}{n}}
+\newcommand{\blue}{\color{MyColor1} \usefont{OT1}{lmss}{m}{n}}
+\newcommand{\blueb}{\color{MyColor1} \usefont{OT1}{lmss}{b}{n}}
+\newcommand{\red}{\color{LightCoral} \usefont{OT1}{lmss}{m}{n}}
+\newcommand{\green}{\color{Turquoise} \usefont{OT1}{lmss}{m}{n}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% FONTS AND COLORS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%    SECTIONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{titlesec}
+\usepackage{sectsty}
+%%%%%%%%%%%%%%%%%%%%%%%%
+%set section/subsections HEADINGS font and color
+\sectionfont{\color{MyColor1}}  % sets colour of sections
+\subsectionfont{\color{MyColor2}}  % sets colour of sections
+\subsubsectionfont{\color{MyColor3}}  % sets colour of sections
+
+%set section enumerator to arabic number (see footnotes markings alternatives)
+\renewcommand\thesection{\arabic{section}.} %define sections numbering
+\renewcommand\thesubsection{\thesection\arabic{subsection}} %subsec.num.
+
+%define new section style
+\newcommand{\mysection}{
+	\titleformat{\section} [runin] {\usefont{OT1}{lmss}{b}{n}\color{MyColor1}} 
+	{\thesection} {3pt} {} } 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%		CAPTIONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{caption}
+\usepackage{subcaption}
+%%%%%%%%%%%%%%%%%%%%%%%%
+\captionsetup[figure]{labelfont={color=MyColor1}}
+
+\makeatletter
+\let\reftagform@=\tagform@
+\def\tagform@#1{\maketag@@@{(\ignorespaces\textcolor{red}{#1}\unskip\@@italiccorr)}}
+\renewcommand{\eqref}[1]{\textup{\reftagform@{\ref{#1}}}}
+\makeatother
+\usepackage{hyperref}
+\hypersetup{colorlinks=true}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% PREPARE TITLE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title{\blue  
+	\begin{figure}[h!]
+  		\centering
+    	\includegraphics[width=1\textwidth]{img/logo3}
+	\end{figure}
+	\blueb Battle of Origins | Playtesting Questionnaire}
+\author{Patrick Misteli, Ruben Kälin, Jacqueline Staub, Gregory Wyss}
+\date{\today}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+	\hypersetup{linkcolor=MyColor1}	
+	
+\maketitle
+
+Thank you very much for participating in our playtest. If a question arises during the experiment, the questioner will gladly answer it.
+
+\section{Demographic Questions}
+
+The questions in this and the next chapter must be answered before playing.
+
+\begin{table}[H]
+\begin{tabular}{|l|c|c|c|c|c|}
+	\hline
+  		& 
+  			$<15$ & $15-20$ & $21-25$ & $26-30$ & $>30$\\
+  	\hline
+  		Age: & 
+  			$\square$ & $\square$ & $\square$ & $\square$ & $\square$\\
+  	\hline
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\begin{tabular}{|l|c|c|}
+	\hline
+  		& 
+  			female & male\\
+  	\hline
+  		Sex: & 
+  			$\square$ & $\square$\\
+  	\hline
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\begin{tabularx}{1.1\textwidth}{|X|U|U|U|U|U|U|X|}
+	\hline
+  		How often do I play ... & \rotatebox[origin=c]{270}{daily} & \rotatebox[origin=c]{270}{weekly} & \rotatebox[origin=c]{270}{monthly} & \rotatebox[origin=c]{270}{yearly} & \rotatebox[origin=c]{270}{never} \\
+  	\hline Video Games? & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ \\
+  	\hline With a Controller? & $\square$ & $\square$ & $\square$ & $\square$ & $\square$\\
+  	\hline First-Person-Shooter Games? (Counter Strike, Battlefield, Call of Duty) & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ \\
+  	\hline Role-Play-Games? (Gothic, Skyrim) & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ \\
+  	\hline Racing Games? (Need for Speed, Gran Turismo) & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ \\
+  	\hline Simulation Games? (Sims, SimCity)& $\square$ & $\square$ & $\square$ & $\square$ & $\square$ \\
+  	\hline Action Games? (GTA, Watch Dogs)& $\square$ & $\square$ & $\square$ & $\square$ & $\square$ \\
+  	\hline Adventure Games? (Tomb Raider, Fahrenheit)& $\square$ & $\square$ & $\square$ & $\square$ & $\square$ \\
+  	\hline Open World/Sandbox Games? (Minecraft) & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ \\
+  	\hline Massive-Multiplayer-Online-Games? (World of Warcraft)& $\square$ & $\square$ & $\square$ & $\square$ & $\square$ \\
+  	\hline Real-Time-Strategy Games? (Anno 2070, Starcraft)& $\square$ & $\square$ & $\square$ & $\square$ & $\square$ \\
+  	\hline Turn-Based-Strategy Games? (Civilization V, Master of Magic)& $\square$ & $\square$ & $\square$ & $\square$ & $\square$ \\
+  	\hline Casual/Cellphone Games? (Angry Birds, Plants vs Zombies)& $\square$ & $\square$ & $\square$ & $\square$ & $\square$ \\
+	\hline
+\end{tabularx}
+\end{table}
+
+\section{Questions before Playing}
+
+\begin{table}[H]
+\begin{tabularx}{0.6\textwidth}{|X|S|S|S|S|S|X|}
+	\hline Which button/joystick controls ... & Button  \\
+  	\hline Look around & \\
+  	\hline Walk & \\
+  	\hline Shoot & \\
+  	\hline Create Wonder & \\
+  	\hline Cast Wonder & \\
+  	\hline
+\end{tabularx}
+\end{table}
+
+\section{Playing}
+
+The following questions are filled in by the questioner.
+
+\subsection{Single Player (3*5 minutes)}
+\begin{table}[H]
+\begin{tabularx}{1.1\textwidth}{|X|S|S|T|T|T|T|S|}
+	\hline 
+		Game & Darwinist & Religion-ist & Win & Lose & Draw & Time & Rating (1-5)\\
+  	\hline
+  		10 players per team& $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & \\
+  	\hline
+  		20 players per team& $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & \\
+  	\hline
+  		5 players per team& $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & \\
+  	\hline
+\end{tabularx}
+\end{table}
+
+\subsection{Multi Player}
+Default:
+\begin{itemize}
+	\item 20 Players per Team
+	\item Equal team sizes
+	\item Timelimit: 5 min
+	\item All human player on one side
+	\item Human players distributed
+\end{itemize}
+\begin{table}[H]
+\begin{tabularx}{1.1\textwidth}{|X|S|S|S|S|S|S|}
+	\hline 
+		& Round 1 & Round 2 & Round 3 & Round 4 & Round 5 & Round 6\\
+  	\hline
+  		\# of Human Darw. &  & &  & &  &  \\
+  	\hline
+	  	\# of Human Rel. &  & &  & &  &  \\
+  	\hline
+	  	\# of NPC Darw. &  & &  & &  &  \\
+  	\hline
+  		\# of NPC Rel.  & & &  & & & \\
+  	\hline
+	  	Time  & & &  & & & \\
+  	\hline
+	  	Wonder Points  & & &  & & & \\
+  	\hline
+	  	Win, Lose, Draw & & &  & & & \\
+  	\hline
+	  	Rating \newline 1: Worst \newline 5: Awesome & & &  & & & \\
+  	
+  	\hline
+\end{tabularx}
+\end{table}
+
+\section{Questions after Playing}
+
+Please fill in the remaining questions after playing.
+
+\begin{table}[H]
+\begin{tabularx}{1.1\textwidth}{|X|S|S|X|S|S|X|}
+	\hline
+  		& Yes & No & Comments\\
+  	\hline
+  		Should the wonder be immediately active? & $\square$ & $\square$ &\\
+  	\hline
+		Did you notice that human players always get the wonder? & $\square$ & $\square$ &\\
+	\hline
+		Should the human players always get the wonder? & $\square$ & $\square$ &\\
+	\hline
+		Is everything important visible at any instant of time? (zoom out) & $\square$ & $\square$ &\\	
+	\hline
+		Is my player always large enough? (zoom in) & $\square$ & $\square$ &\\
+	\hline
+		Is it clear to me which player is the one I can control?& $\square$ & $\square$ &\\
+	\hline
+		Is the camera movement and zoom understandable?& $\square$ & $\square$ &\\
+	\hline
+		Does the game discriminate Darwinists? If yes, how?& $\square$ & $\square$ &\\
+	\hline
+		Does the game discriminate Religionists? If yes, how?& $\square$ & $\square$ &\\
+	\hline
+		Is the cooldown after creating the wonder intuitive& $\square$ & $\square$ &\\
+	\hline
+		Is it clear when I am invincible?& $\square$ & $\square$ &\\
+	\hline
+\end{tabularx}
+\end{table}
+
+\begin{table}[H]
+\begin{tabularx}{1.1\textwidth}{|X|S|S|S|S|S|X|}
+	\hline
+  		Statement& 
+  			definitely & slightly & neutral & not that much & definitely not \\
+  	\hline
+	  	Do you feel offended when playing this game?& 
+	  	$\square$ & $\square$ & $\square$ & $\square$ & $\square$ \\
+  	\hline
+  		The gaming success depends heavily on the skills of the player.& 
+  			$\square$ & $\square$ & $\square$ & $\square$ & $\square$ \\
+  	\hline
+  		The gaming success depends heavily on luck. & 
+  			$\square$ & $\square$ & $\square$ & $\square$ & $\square$ \\
+  	\hline
+  		Darwinists win more easily.& 
+  			$\square$ & $\square$ & $\square$ & $\square$ & $\square$ \\
+  	\hline
+  		Religionists win more easily.& 
+  			$\square$ & $\square$ & $\square$ & $\square$ & $\square$ \\
+  	\hline
+  		It is fun to play the game  in single player mode.& 
+  			$\square$ & $\square$ & $\square$ & $\square$ & $\square$ \\
+  	\hline
+  		It is fun to play the game in multi player mode.& 
+  			$\square$ & $\square$ & $\square$ & $\square$ & $\square$ \\
+  	\hline
+  		The game is too hard.& 
+  			$\square$ & $\square$ & $\square$ & $\square$ & $\square$ \\
+  	\hline
+  		The NPCs play too poorly.& 
+  			$\square$ & $\square$ & $\square$ & $\square$ & $\square$ \\
+  	\hline
+  		I could anticipate the actions of the NPCs and use that to my advantage.& 
+  			$\square$ & $\square$ & $\square$ & $\square$ & $\square$ \\
+	\hline
+\end{tabularx}
+\end{table}
+
+\begin{table}[H]
+\begin{tabularx}{1.1\textwidth}{|X|X|S|S|S|S|X|}
+	\hline What would you improve concerning ... \\
+  	\hline Controls? \\\\\\\\\\\\\\
+  	\hline Graphics?  \\\\\\\\\\\\\\
+  	\hline Interface?  \\\\\\\\\\\\\\
+  	\hline
+\end{tabularx}
+\end{table}
+
+\begin{table}[H]
+\begin{tabularx}{1.1\textwidth}{|X|S|S|S|S|S|S|X|}
+	\hline
+  		How would you change the constants? & increase & slightly increase & leave & slightly decrease & decrease \\
+  	\hline
+  		Running speed & 
+  			$\square$ & $\square$ & $\square$ & $\square$ & $\square$ \\
+  	\hline
+  		Shoot distance & 
+  			$\square$ & $\square$ & $\square$ & $\square$ & $\square$ \\
+  	\hline
+		Running speed when casting a wonder & 
+			$\square$ & $\square$ & $\square$ & $\square$ & $\square$ \\
+	\hline
+  		Wonder duration & 
+  			$\square$ & $\square$ & $\square$ & $\square$ & $\square$ \\
+  	\hline
+  		Distance between allies to create wonder& 
+  			$\square$ & $\square$ & $\square$ & $\square$ & $\square$ \\
+  	\hline
+  		Points needed to complete a wonder & 
+  			$\square$ & $\square$ & $\square$ & $\square$ & $\square$ \\
+  	 \hline
+  		Time limit for one game & 
+  			$\square$ & $\square$ & $\square$ & $\square$ & $\square$ \\
+  	\hline
+  		Map size & 
+  			$\square$ & $\square$ & $\square$ & $\square$ & $\square$ \\
+  	\hline
+  		Cooldown duration after creating a wonder & 
+  			$\square$ & $\square$ & $\square$ & $\square$ & $\square$ \\
+	\hline
+\end{tabularx}
+\end{table}
+
+\newpage
+
+\section{General Feedback}
+
+Feel free to write down any suggestions, opinions, and everything else that you could not express earlier.
+
+\begin{table}[H]
+\begin{tabularx}{1.1\textwidth}{|S|X|S|S|S|S|X|}
+	\hline Keyword & Feedback \\
+  	\hline  & \\
+  	\hline  & \\
+  	\hline  & \\
+  	\hline  & \\
+  	\hline  & \\
+  	\hline  & \\
+  	\hline  & \\
+  	\hline  & \\
+  	\hline  & \\
+  	\hline  & \\
+  	\hline  & \\
+  	\hline  & \\
+  	\hline  & \\
+  	\hline  & \\
+  	\hline  & \\
+  	\hline  & \\
+  	\hline
+\end{tabularx}
+\end{table}
+
+\end{document}

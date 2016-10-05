@@ -1,0 +1,2176 @@
+fileFormatVersion: 2
+guid: 4733b97aa6d395b4eafa92b53c84e30f
+timeCreated: 1428412860
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Armature.001
+    100004: Camera
+    100006: chest
+    100008: chest 1
+    100010: chest 2
+    100012: DEF-chest
+    100014: DEF-chest_end
+    100016: DEF-f_index.01.L.01
+    100018: DEF-f_index.01.L.01_end
+    100020: DEF-f_index.01.L.02
+    100022: DEF-f_index.01.L.02_end
+    100024: DEF-f_index.01.R.01
+    100026: DEF-f_index.01.R.01_end
+    100028: DEF-f_index.01.R.02
+    100030: DEF-f_index.01.R.02_end
+    100032: DEF-f_index.02.L
+    100034: DEF-f_index.02.L_end
+    100036: DEF-f_index.02.R
+    100038: DEF-f_index.02.R_end
+    100040: DEF-f_index.03.L
+    100042: DEF-f_index.03.L_end
+    100044: DEF-f_index.03.R
+    100046: DEF-f_index.03.R_end
+    100048: DEF-f_middle.01.L.01
+    100050: DEF-f_middle.01.L.01_end
+    100052: DEF-f_middle.01.L.02
+    100054: DEF-f_middle.01.L.02_end
+    100056: DEF-f_middle.01.R.01
+    100058: DEF-f_middle.01.R.01_end
+    100060: DEF-f_middle.01.R.02
+    100062: DEF-f_middle.01.R.02_end
+    100064: DEF-f_middle.02.L
+    100066: DEF-f_middle.02.L_end
+    100068: DEF-f_middle.02.R
+    100070: DEF-f_middle.02.R_end
+    100072: DEF-f_middle.03.L
+    100074: DEF-f_middle.03.L_end
+    100076: DEF-f_middle.03.R
+    100078: DEF-f_middle.03.R_end
+    100080: DEF-f_pinky.01.L.01
+    100082: DEF-f_pinky.01.L.01_end
+    100084: DEF-f_pinky.01.L.02
+    100086: DEF-f_pinky.01.L.02_end
+    100088: DEF-f_pinky.01.R.01
+    100090: DEF-f_pinky.01.R.01_end
+    100092: DEF-f_pinky.01.R.02
+    100094: DEF-f_pinky.01.R.02_end
+    100096: DEF-f_pinky.02.L
+    100098: DEF-f_pinky.02.L_end
+    100100: DEF-f_pinky.02.R
+    100102: DEF-f_pinky.02.R_end
+    100104: DEF-f_pinky.03.L
+    100106: DEF-f_pinky.03.L_end
+    100108: DEF-f_pinky.03.R
+    100110: DEF-f_pinky.03.R_end
+    100112: DEF-f_ring.01.L.01
+    100114: DEF-f_ring.01.L.01_end
+    100116: DEF-f_ring.01.L.02
+    100118: DEF-f_ring.01.L.02_end
+    100120: DEF-f_ring.01.R.01
+    100122: DEF-f_ring.01.R.01_end
+    100124: DEF-f_ring.01.R.02
+    100126: DEF-f_ring.01.R.02_end
+    100128: DEF-f_ring.02.L
+    100130: DEF-f_ring.02.L_end
+    100132: DEF-f_ring.02.R
+    100134: DEF-f_ring.02.R_end
+    100136: DEF-f_ring.03.L
+    100138: DEF-f_ring.03.L_end
+    100140: DEF-f_ring.03.R
+    100142: DEF-f_ring.03.R_end
+    100144: DEF-foot.L
+    100146: DEF-foot.L_end
+    100148: DEF-foot.R
+    100150: DEF-foot.R_end
+    100152: DEF-forearm.01.L
+    100154: DEF-forearm.01.L_end
+    100156: DEF-forearm.01.R
+    100158: DEF-forearm.01.R_end
+    100160: DEF-forearm.02.L
+    100162: DEF-forearm.02.L_end
+    100164: DEF-forearm.02.R
+    100166: DEF-forearm.02.R_end
+    100168: DEF-hand.L
+    100170: DEF-hand.L_end
+    100172: DEF-hand.R
+    100174: DEF-hand.R_end
+    100176: DEF-head
+    100178: DEF-head_end
+    100180: DEF-hips
+    100182: DEF-hips_end
+    100184: DEF-neck
+    100186: DEF-neck_end
+    100188: DEF-palm.01.L
+    100190: DEF-palm.01.L_end
+    100192: DEF-palm.01.R
+    100194: DEF-palm.01.R_end
+    100196: DEF-palm.02.L
+    100198: DEF-palm.02.L_end
+    100200: DEF-palm.02.R
+    100202: DEF-palm.02.R_end
+    100204: DEF-palm.03.L
+    100206: DEF-palm.03.L_end
+    100208: DEF-palm.03.R
+    100210: DEF-palm.03.R_end
+    100212: DEF-palm.04.L
+    100214: DEF-palm.04.L_end
+    100216: DEF-palm.04.R
+    100218: DEF-palm.04.R_end
+    100220: DEF-shin.01.L
+    100222: DEF-shin.01.L_end
+    100224: DEF-shin.01.R
+    100226: DEF-shin.01.R_end
+    100228: DEF-shin.02.L
+    100230: DEF-shin.02.L_end
+    100232: DEF-shin.02.R
+    100234: DEF-shin.02.R_end
+    100236: DEF-shoulder.L
+    100238: DEF-shoulder.L_end
+    100240: DEF-shoulder.R
+    100242: DEF-shoulder.R_end
+    100244: DEF-spine
+    100246: DEF-spine_end
+    100248: DEF-thigh.01.L
+    100250: DEF-thigh.01.L_end
+    100252: DEF-thigh.01.R
+    100254: DEF-thigh.01.R_end
+    100256: DEF-thigh.02.L
+    100258: DEF-thigh.02.R
+    100260: DEF-thumb.01.L.01
+    100262: DEF-thumb.01.L.01_end
+    100264: DEF-thumb.01.L.02
+    100266: DEF-thumb.01.L.02_end
+    100268: DEF-thumb.01.R.01
+    100270: DEF-thumb.01.R.01_end
+    100272: DEF-thumb.01.R.02
+    100274: DEF-thumb.01.R.02_end
+    100276: DEF-thumb.02.L
+    100278: DEF-thumb.02.L_end
+    100280: DEF-thumb.02.R
+    100282: DEF-thumb.02.R_end
+    100284: DEF-thumb.03.L
+    100286: DEF-thumb.03.L_end
+    100288: DEF-thumb.03.R
+    100290: DEF-thumb.03.R_end
+    100292: DEF-toe.L
+    100294: DEF-toe.L_end
+    100296: DEF-toe.R
+    100298: DEF-toe.R_end
+    100300: DEF-upper_arm.01.L
+    100302: DEF-upper_arm.01.L_end
+    100304: DEF-upper_arm.01.R
+    100306: DEF-upper_arm.01.R_end
+    100308: DEF-upper_arm.02.L
+    100310: DEF-upper_arm.02.R
+    100312: elbow_hose.L
+    100314: elbow_hose.L_end
+    100316: elbow_hose.R
+    100318: elbow_hose.R_end
+    100320: elbow_target.ik.L
+    100322: elbow_target.ik.L_end
+    100324: elbow_target.ik.R
+    100326: elbow_target.ik.R_end
+    100328: Engineer
+    100330: //RootNode
+    100332: f_index.01.L
+    100334: f_index.01.L 1
+    100336: f_index.01.L 2
+    100338: f_index.01.R
+    100340: f_index.01.R 1
+    100342: f_index.01.R 2
+    100344: f_index.02.L
+    100346: f_index.02.L 1
+    100348: f_index.02.L 2
+    100350: f_index.02.R
+    100352: f_index.02.R 1
+    100354: f_index.02.R 2
+    100356: f_index.03.L
+    100358: f_index.03.L 1
+    100360: f_index.03.L 2
+    100362: f_index.03.L_end
+    100364: f_index.03.L_end 1
+    100366: f_index.03.L_end 2
+    100368: f_index.03.R
+    100370: f_index.03.R 1
+    100372: f_index.03.R 2
+    100374: f_index.03.R_end
+    100376: f_index.03.R_end 1
+    100378: f_index.03.R_end 2
+    100380: f_index.L
+    100382: f_index.L_end
+    100384: f_index.R
+    100386: f_index.R_end
+    100388: f_middle.01.L
+    100390: f_middle.01.L 1
+    100392: f_middle.01.L 2
+    100394: f_middle.01.R
+    100396: f_middle.01.R 1
+    100398: f_middle.01.R 2
+    100400: f_middle.02.L
+    100402: f_middle.02.L 1
+    100404: f_middle.02.L 2
+    100406: f_middle.02.R
+    100408: f_middle.02.R 1
+    100410: f_middle.02.R 2
+    100412: f_middle.03.L
+    100414: f_middle.03.L 1
+    100416: f_middle.03.L 2
+    100418: f_middle.03.L_end
+    100420: f_middle.03.L_end 1
+    100422: f_middle.03.L_end 2
+    100424: f_middle.03.R
+    100426: f_middle.03.R 1
+    100428: f_middle.03.R 2
+    100430: f_middle.03.R_end
+    100432: f_middle.03.R_end 1
+    100434: f_middle.03.R_end 2
+    100436: f_middle.L
+    100438: f_middle.L_end
+    100440: f_middle.R
+    100442: f_middle.R_end
+    100444: f_pinky.01.L
+    100446: f_pinky.01.L 1
+    100448: f_pinky.01.R
+    100450: f_pinky.01.R 1
+    100452: f_pinky.02.L
+    100454: f_pinky.02.L 1
+    100456: f_pinky.02.R
+    100458: f_pinky.02.R 1
+    100460: f_pinky.03.L
+    100462: f_pinky.03.L 1
+    100464: f_pinky.03.L_end
+    100466: f_pinky.03.L_end 1
+    100468: f_pinky.03.R
+    100470: f_pinky.03.R 1
+    100472: f_pinky.03.R_end
+    100474: f_pinky.03.R_end 1
+    100476: f_pinky.L
+    100478: f_pinky.L_end
+    100480: f_pinky.R
+    100482: f_pinky.R_end
+    100484: f_ring.01.L
+    100486: f_ring.01.L 1
+    100488: f_ring.01.L 2
+    100490: f_ring.01.R
+    100492: f_ring.01.R 1
+    100494: f_ring.01.R 2
+    100496: f_ring.02.L
+    100498: f_ring.02.L 1
+    100500: f_ring.02.L 2
+    100502: f_ring.02.R
+    100504: f_ring.02.R 1
+    100506: f_ring.02.R 2
+    100508: f_ring.03.L
+    100510: f_ring.03.L 1
+    100512: f_ring.03.L 2
+    100514: f_ring.03.L_end
+    100516: f_ring.03.L_end 1
+    100518: f_ring.03.L_end 2
+    100520: f_ring.03.R
+    100522: f_ring.03.R 1
+    100524: f_ring.03.R 2
+    100526: f_ring.03.R_end
+    100528: f_ring.03.R_end 1
+    100530: f_ring.03.R_end 2
+    100532: f_ring.L
+    100534: f_ring.L_end
+    100536: f_ring.R
+    100538: f_ring.R_end
+    100540: foot.fk.L
+    100542: foot.fk.R
+    100544: foot.ik.L
+    100546: foot.ik.R
+    100548: foot.L
+    100550: foot.L 1
+    100552: foot.R
+    100554: foot.R 1
+    100556: foot_roll.ik.L
+    100558: foot_roll.ik.L_end
+    100560: foot_roll.ik.R
+    100562: foot_roll.ik.R_end
+    100564: forearm.fk.L
+    100566: forearm.fk.R
+    100568: forearm.L
+    100570: forearm.L 1
+    100572: forearm.R
+    100574: forearm.R 1
+    100576: forearm_hose.L
+    100578: forearm_hose.L_end
+    100580: forearm_hose.R
+    100582: forearm_hose.R_end
+    100584: forearm_hose_end.L
+    100586: forearm_hose_end.L_end
+    100588: forearm_hose_end.R
+    100590: forearm_hose_end.R_end
+    100592: hand.fk.L
+    100594: hand.fk.R
+    100596: hand.ik.L
+    100598: hand.ik.R
+    100600: hand.L
+    100602: hand.L 1
+    100604: hand.R
+    100606: hand.R 1
+    100608: head
+    100610: head 1
+    100612: head 2
+    100614: head_end
+    100616: head_end 1
+    100618: heel.02.L
+    100620: heel.02.L 1
+    100622: heel.02.L_end
+    100624: heel.02.L_end 1
+    100626: heel.02.R
+    100628: heel.02.R 1
+    100630: heel.02.R_end
+    100632: heel.02.R_end 1
+    100634: heel.L
+    100636: heel.L 1
+    100638: heel.R
+    100640: heel.R 1
+    100642: hips
+    100644: hips 1
+    100646: hips 2
+    100648: knee_hose.L
+    100650: knee_hose.L_end
+    100652: knee_hose.R
+    100654: knee_hose.R_end
+    100656: knee_target.ik.L
+    100658: knee_target.ik.L_end
+    100660: knee_target.ik.R
+    100662: knee_target.ik.R_end
+    100664: Lamp
+    100666: MCH-chest.flex
+    100668: MCH-chest.flex_s
+    100670: MCH-chest.reverse
+    100672: MCH-chest.reverse_end
+    100674: MCH-elbow_hose_p.L
+    100676: MCH-elbow_hose_p.R
+    100678: MCH-elbow_target.ik_parent.L
+    100680: MCH-elbow_target.ik_parent.R
+    100682: MCH-f_index.01.L
+    100684: MCH-f_index.01.L.tip
+    100686: MCH-f_index.01.L.tip_end
+    100688: MCH-f_index.01.R
+    100690: MCH-f_index.01.R.tip
+    100692: MCH-f_index.01.R.tip_end
+    100694: MCH-f_index.02.L
+    100696: MCH-f_index.02.R
+    100698: MCH-f_index.03.L
+    100700: MCH-f_index.03.R
+    100702: MCH-f_middle.01.L
+    100704: MCH-f_middle.01.L.tip
+    100706: MCH-f_middle.01.L.tip_end
+    100708: MCH-f_middle.01.R
+    100710: MCH-f_middle.01.R.tip
+    100712: MCH-f_middle.01.R.tip_end
+    100714: MCH-f_middle.02.L
+    100716: MCH-f_middle.02.R
+    100718: MCH-f_middle.03.L
+    100720: MCH-f_middle.03.R
+    100722: MCH-f_pinky.01.L
+    100724: MCH-f_pinky.01.L.tip
+    100726: MCH-f_pinky.01.L.tip_end
+    100728: MCH-f_pinky.01.R
+    100730: MCH-f_pinky.01.R.tip
+    100732: MCH-f_pinky.01.R.tip_end
+    100734: MCH-f_pinky.02.L
+    100736: MCH-f_pinky.02.R
+    100738: MCH-f_pinky.03.L
+    100740: MCH-f_pinky.03.R
+    100742: MCH-f_ring.01.L
+    100744: MCH-f_ring.01.L.tip
+    100746: MCH-f_ring.01.L.tip_end
+    100748: MCH-f_ring.01.R
+    100750: MCH-f_ring.01.R.tip
+    100752: MCH-f_ring.01.R.tip_end
+    100754: MCH-f_ring.02.L
+    100756: MCH-f_ring.02.R
+    100758: MCH-f_ring.03.L
+    100760: MCH-f_ring.03.R
+    100762: MCH-foot.L
+    100764: MCH-foot.L.001
+    100766: MCH-foot.L.001_end
+    100768: MCH-foot.L.rocker.01
+    100770: MCH-foot.L.rocker.02
+    100772: MCH-foot.L.roll.01
+    100774: MCH-foot.L.roll.02
+    100776: MCH-foot.L_end
+    100778: MCH-foot.R
+    100780: MCH-foot.R.001
+    100782: MCH-foot.R.001_end
+    100784: MCH-foot.R.rocker.01
+    100786: MCH-foot.R.rocker.02
+    100788: MCH-foot.R.roll.01
+    100790: MCH-foot.R.roll.02
+    100792: MCH-foot.R_end
+    100794: MCH-forearm.01.L
+    100796: MCH-forearm.01.R
+    100798: MCH-forearm.ik.L
+    100800: MCH-forearm.ik.L_end
+    100802: MCH-forearm.ik.R
+    100804: MCH-forearm.ik.R_end
+    100806: MCH-forearm.junc.L
+    100808: MCH-forearm.junc.L_end
+    100810: MCH-forearm.junc.R
+    100812: MCH-forearm.junc.R_end
+    100814: MCH-forearm.nostr.ik.L
+    100816: MCH-forearm.nostr.ik.L_end
+    100818: MCH-forearm.nostr.ik.R
+    100820: MCH-forearm.nostr.ik.R_end
+    100822: MCH-forearm.stretch.ik.L
+    100824: MCH-forearm.stretch.ik.L_end
+    100826: MCH-forearm.stretch.ik.R
+    100828: MCH-forearm.stretch.ik.R_end
+    100830: MCH-forearm_antistr.fk.L
+    100832: MCH-forearm_antistr.fk.R
+    100834: MCH-forearm_hose_end_p.L
+    100836: MCH-forearm_hose_end_p.R
+    100838: MCH-forearm_hose_p.L
+    100840: MCH-forearm_hose_p.R
+    100842: MCH-forearm_smth.01.L
+    100844: MCH-forearm_smth.01.R
+    100846: MCH-hand.L
+    100848: MCH-hand.L.001
+    100850: MCH-hand.L.001_end
+    100852: MCH-hand.L_end
+    100854: MCH-hand.R
+    100856: MCH-hand.R.001
+    100858: MCH-hand.R.001_end
+    100860: MCH-hand.R_end
+    100862: MCH-head
+    100864: MCH-head.001
+    100866: MCH-head.001_end
+    100868: MCH-head.02
+    100870: MCH-head.socket1
+    100872: MCH-head.socket1_end
+    100874: MCH-head.socket2
+    100876: MCH-head_end
+    100878: MCH-hips.flex
+    100880: MCH-hips.flex_s
+    100882: MCH-hips.reverse
+    100884: MCH-hips.reverse_end
+    100886: MCH-hips_fk_ns_ch
+    100888: MCH-hips_fk_ns_ch.001
+    100890: MCH-hips_fk_ns_intr
+    100892: MCH-hips_fk_ns_intr.001
+    100894: MCH-hips_fk_ns_intr.001_end
+    100896: MCH-hips_fk_ns_intr_end
+    100898: MCH-hips_ik_ns_ch
+    100900: MCH-hips_ik_ns_ch.001
+    100902: MCH-hips_ik_ns_intr
+    100904: MCH-hips_ik_ns_intr.001
+    100906: MCH-hips_ik_ns_intr.001_end
+    100908: MCH-hips_ik_ns_intr_end
+    100910: MCH-hips_rh_ns_ch
+    100912: MCH-hips_rh_ns_ch.001
+    100914: MCH-hips_rh_ns_intr
+    100916: MCH-hips_rh_ns_intr.001
+    100918: MCH-hips_rh_ns_intr.001_end
+    100920: MCH-hips_rh_ns_intr_end
+    100922: MCH-knee_hose_p.L
+    100924: MCH-knee_hose_p.R
+    100926: MCH-knee_target.ik_parent.L
+    100928: MCH-knee_target.ik_parent.R
+    100930: MCH-neck
+    100932: MCH-neck.02
+    100934: MCH-neck.child
+    100936: MCH-neck.child_end
+    100938: MCH-neck.follow
+    100940: MCH-neck_end
+    100942: MCH-par_spine
+    100944: MCH-shin.01.L
+    100946: MCH-shin.01.R
+    100948: MCH-shin.ik.L
+    100950: MCH-shin.ik.L_end
+    100952: MCH-shin.ik.R
+    100954: MCH-shin.ik.R_end
+    100956: MCH-shin.junc.L
+    100958: MCH-shin.junc.L_end
+    100960: MCH-shin.junc.R
+    100962: MCH-shin.junc.R_end
+    100964: MCH-shin.nostr.ik.L
+    100966: MCH-shin.nostr.ik.L_end
+    100968: MCH-shin.nostr.ik.R
+    100970: MCH-shin.nostr.ik.R_end
+    100972: MCH-shin.stretch.ik.L
+    100974: MCH-shin.stretch.ik.L_end
+    100976: MCH-shin.stretch.ik.R
+    100978: MCH-shin.stretch.ik.R_end
+    100980: MCH-shin_antistr.fk.L
+    100982: MCH-shin_antistr.fk.R
+    100984: MCH-shin_hose_end_p.L
+    100986: MCH-shin_hose_end_p.R
+    100988: MCH-shin_hose_p.L
+    100990: MCH-shin_hose_p.R
+    100992: MCH-shin_smth.01.L
+    100994: MCH-shin_smth.01.R
+    100996: MCH-shoulder_fk_ns_ch.L
+    100998: MCH-shoulder_fk_ns_ch.R
+    101000: MCH-shoulder_fk_ns_intr.L
+    101002: MCH-shoulder_fk_ns_intr.L_end
+    101004: MCH-shoulder_fk_ns_intr.R
+    101006: MCH-shoulder_fk_ns_intr.R_end
+    101008: MCH-shoulder_ik_ns_ch.L
+    101010: MCH-shoulder_ik_ns_ch.R
+    101012: MCH-shoulder_ik_ns_intr.L
+    101014: MCH-shoulder_ik_ns_intr.L_end
+    101016: MCH-shoulder_ik_ns_intr.R
+    101018: MCH-shoulder_ik_ns_intr.R_end
+    101020: MCH-shoulder_rh_ns_ch.L
+    101022: MCH-shoulder_rh_ns_ch.R
+    101024: MCH-shoulder_rh_ns_intr.L
+    101026: MCH-shoulder_rh_ns_intr.L_end
+    101028: MCH-shoulder_rh_ns_intr.R
+    101030: MCH-shoulder_rh_ns_intr.R_end
+    101032: MCH-spine.flex
+    101034: MCH-spine.flex_s
+    101036: MCH-spine.reverse
+    101038: MCH-spine.reverse_end
+    101040: MCH-sub_chest
+    101042: MCH-sub_chest_end
+    101044: MCH-sub_hips
+    101046: MCH-sub_hips_end
+    101048: MCH-sub_spine
+    101050: MCH-sub_spine_end
+    101052: MCH-thigh.fk.L.socket1
+    101054: MCH-thigh.fk.L.socket1_end
+    101056: MCH-thigh.fk.L.socket2
+    101058: MCH-thigh.fk.R.socket1
+    101060: MCH-thigh.fk.R.socket1_end
+    101062: MCH-thigh.fk.R.socket2
+    101064: MCH-thigh.ik.L
+    101066: MCH-thigh.ik.R
+    101068: MCH-thigh.nostr.ik.L
+    101070: MCH-thigh.nostr.ik.R
+    101072: MCH-thigh.stretch.ik.L
+    101074: MCH-thigh.stretch.ik.L_end
+    101076: MCH-thigh.stretch.ik.R
+    101078: MCH-thigh.stretch.ik.R_end
+    101080: MCH-thigh_antistr.fk.L
+    101082: MCH-thigh_antistr.fk.R
+    101084: MCH-thigh_hose_end_p.L
+    101086: MCH-thigh_hose_end_p.R
+    101088: MCH-thigh_hose_p.L
+    101090: MCH-thigh_hose_p.R
+    101092: MCH-thigh_smth.02.L
+    101094: MCH-thigh_smth.02.L_end
+    101096: MCH-thigh_smth.02.R
+    101098: MCH-thigh_smth.02.R_end
+    101100: MCH-thumb.01.L
+    101102: MCH-thumb.01.L.tip
+    101104: MCH-thumb.01.L.tip_end
+    101106: MCH-thumb.01.R
+    101108: MCH-thumb.01.R.tip
+    101110: MCH-thumb.01.R.tip_end
+    101112: MCH-thumb.02.L
+    101114: MCH-thumb.02.R
+    101116: MCH-thumb.03.L
+    101118: MCH-thumb.03.R
+    101120: MCH-toe.L.parent
+    101122: MCH-toe.L.socket1
+    101124: MCH-toe.L.socket2
+    101126: MCH-toe.L.socket2_end
+    101128: MCH-toe.R.parent
+    101130: MCH-toe.R.socket1
+    101132: MCH-toe.R.socket2
+    101134: MCH-toe.R.socket2_end
+    101136: MCH-upper_arm.fk.L.socket1
+    101138: MCH-upper_arm.fk.L.socket1_end
+    101140: MCH-upper_arm.fk.L.socket2
+    101142: MCH-upper_arm.fk.R.socket1
+    101144: MCH-upper_arm.fk.R.socket1_end
+    101146: MCH-upper_arm.fk.R.socket2
+    101148: MCH-upper_arm.ik.L
+    101150: MCH-upper_arm.ik.R
+    101152: MCH-upper_arm.nostr.ik.L
+    101154: MCH-upper_arm.nostr.ik.R
+    101156: MCH-upper_arm.stretch.ik.L
+    101158: MCH-upper_arm.stretch.ik.L_end
+    101160: MCH-upper_arm.stretch.ik.R
+    101162: MCH-upper_arm.stretch.ik.R_end
+    101164: MCH-upper_arm_antistr.fk.L
+    101166: MCH-upper_arm_antistr.fk.R
+    101168: MCH-upper_arm_hose_end_p.L
+    101170: MCH-upper_arm_hose_end_p.R
+    101172: MCH-upper_arm_hose_p.L
+    101174: MCH-upper_arm_hose_p.R
+    101176: MCH-upper_arm_smth.02.L
+    101178: MCH-upper_arm_smth.02.L_end
+    101180: MCH-upper_arm_smth.02.R
+    101182: MCH-upper_arm_smth.02.R_end
+    101184: metarig
+    101186: metarig.001
+    101188: neck
+    101190: neck 1
+    101192: neck 2
+    101194: ORG-chest
+    101196: ORG-f_index.01.L
+    101198: ORG-f_index.01.R
+    101200: ORG-f_index.02.L
+    101202: ORG-f_index.02.R
+    101204: ORG-f_index.03.L
+    101206: ORG-f_index.03.R
+    101208: ORG-f_middle.01.L
+    101210: ORG-f_middle.01.R
+    101212: ORG-f_middle.02.L
+    101214: ORG-f_middle.02.R
+    101216: ORG-f_middle.03.L
+    101218: ORG-f_middle.03.R
+    101220: ORG-f_pinky.01.L
+    101222: ORG-f_pinky.01.R
+    101224: ORG-f_pinky.02.L
+    101226: ORG-f_pinky.02.R
+    101228: ORG-f_pinky.03.L
+    101230: ORG-f_pinky.03.R
+    101232: ORG-f_ring.01.L
+    101234: ORG-f_ring.01.R
+    101236: ORG-f_ring.02.L
+    101238: ORG-f_ring.02.R
+    101240: ORG-f_ring.03.L
+    101242: ORG-f_ring.03.R
+    101244: ORG-foot.L
+    101246: ORG-foot.R
+    101248: ORG-forearm.L
+    101250: ORG-forearm.R
+    101252: ORG-hand.L
+    101254: ORG-hand.R
+    101256: ORG-head
+    101258: ORG-head_end
+    101260: ORG-heel.02.L
+    101262: ORG-heel.02.L_end
+    101264: ORG-heel.02.R
+    101266: ORG-heel.02.R_end
+    101268: ORG-heel.L
+    101270: ORG-heel.R
+    101272: ORG-hips
+    101274: ORG-neck
+    101276: ORG-palm.01.L
+    101278: ORG-palm.01.R
+    101280: ORG-palm.02.L
+    101282: ORG-palm.02.R
+    101284: ORG-palm.03.L
+    101286: ORG-palm.03.R
+    101288: ORG-palm.04.L
+    101290: ORG-palm.04.R
+    101292: ORG-shin.L
+    101294: ORG-shin.R
+    101296: ORG-shoulder.L
+    101298: ORG-shoulder.R
+    101300: ORG-spine
+    101302: ORG-thigh.L
+    101304: ORG-thigh.R
+    101306: ORG-thumb.01.L
+    101308: ORG-thumb.01.R
+    101310: ORG-thumb.02.L
+    101312: ORG-thumb.02.R
+    101314: ORG-thumb.03.L
+    101316: ORG-thumb.03.R
+    101318: ORG-toe.L
+    101320: ORG-toe.R
+    101322: ORG-upper_arm.L
+    101324: ORG-upper_arm.R
+    101326: palm.01.L
+    101328: palm.01.L 1
+    101330: palm.01.R
+    101332: palm.01.R 1
+    101334: palm.02.L
+    101336: palm.02.L 1
+    101338: palm.02.R
+    101340: palm.02.R 1
+    101342: palm.03.L
+    101344: palm.03.L 1
+    101346: palm.03.R
+    101348: palm.03.R 1
+    101350: palm.04.L
+    101352: palm.04.R
+    101354: palm.L
+    101356: palm.L_end
+    101358: palm.R
+    101360: palm.R_end
+    101362: Rig
+    101364: rig
+    101366: root
+    101368: shin.fk.L
+    101370: shin.fk.R
+    101372: shin.L
+    101374: shin.L 1
+    101376: shin.R
+    101378: shin.R 1
+    101380: shin_hose.L
+    101382: shin_hose.L_end
+    101384: shin_hose.R
+    101386: shin_hose.R_end
+    101388: shin_hose_end.L
+    101390: shin_hose_end.L_end
+    101392: shin_hose_end.R
+    101394: shin_hose_end.R_end
+    101396: shoulder.L
+    101398: shoulder.L 1
+    101400: shoulder.L 2
+    101402: shoulder.L_end
+    101404: shoulder.R
+    101406: shoulder.R 1
+    101408: shoulder.R 2
+    101410: shoulder.R_end
+    101412: spine
+    101414: spine 1
+    101416: spine 2
+    101418: thigh.fk.L
+    101420: thigh.fk.R
+    101422: thigh.L
+    101424: thigh.L 1
+    101426: thigh.R
+    101428: thigh.R 1
+    101430: thigh_hose.L
+    101432: thigh_hose.L_end
+    101434: thigh_hose.R
+    101436: thigh_hose.R_end
+    101438: thigh_hose_end.L
+    101440: thigh_hose_end.L_end
+    101442: thigh_hose_end.R
+    101444: thigh_hose_end.R_end
+    101446: thumb.01.L
+    101448: thumb.01.L 1
+    101450: thumb.01.L 2
+    101452: thumb.01.R
+    101454: thumb.01.R 1
+    101456: thumb.01.R 2
+    101458: thumb.02.L
+    101460: thumb.02.L 1
+    101462: thumb.02.L 2
+    101464: thumb.02.R
+    101466: thumb.02.R 1
+    101468: thumb.02.R 2
+    101470: thumb.03.L
+    101472: thumb.03.L 1
+    101474: thumb.03.L 2
+    101476: thumb.03.L_end
+    101478: thumb.03.L_end 1
+    101480: thumb.03.L_end 2
+    101482: thumb.03.R
+    101484: thumb.03.R 1
+    101486: thumb.03.R 2
+    101488: thumb.03.R_end
+    101490: thumb.03.R_end 1
+    101492: thumb.03.R_end 2
+    101494: thumb.L
+    101496: thumb.L_end
+    101498: thumb.R
+    101500: thumb.R_end
+    101502: toe.L
+    101504: toe.L 1
+    101506: toe.L 2
+    101508: toe.L_end
+    101510: toe.L_end 1
+    101512: toe.L_end 2
+    101514: toe.R
+    101516: toe.R 1
+    101518: toe.R 2
+    101520: toe.R_end
+    101522: toe.R_end 1
+    101524: toe.R_end 2
+    101526: torso
+    101528: upper_arm.fk.L
+    101530: upper_arm.fk.R
+    101532: upper_arm.L
+    101534: upper_arm.L 1
+    101536: upper_arm.R
+    101538: upper_arm.R 1
+    101540: upper_arm_hose.L
+    101542: upper_arm_hose.L_end
+    101544: upper_arm_hose.R
+    101546: upper_arm_hose.R_end
+    101548: upper_arm_hose_end.L
+    101550: upper_arm_hose_end.L_end
+    101552: upper_arm_hose_end.R
+    101554: upper_arm_hose_end.R_end
+    101556: VIS-foot.ik.L
+    101558: VIS-foot.ik.L_end
+    101560: VIS-foot.ik.R
+    101562: VIS-foot.ik.R_end
+    101564: VIS-hand.ik.L
+    101566: VIS-hand.ik.L_end
+    101568: VIS-hand.ik.R
+    101570: VIS-hand.ik.R_end
+    101572: VIS-thigh_pole.ik.L
+    101574: VIS-thigh_pole.ik.L_end
+    101576: VIS-thigh_pole.ik.R
+    101578: VIS-thigh_pole.ik.R_end
+    101580: VIS-upper_arm_pole.ik.L
+    101582: VIS-upper_arm_pole.ik.L_end
+    101584: VIS-upper_arm_pole.ik.R
+    101586: VIS-upper_arm_pole.ik.R_end
+    101588: WGT-chest
+    101590: WGT-elbow_hose.L
+    101592: WGT-elbow_hose.R
+    101594: WGT-elbow_target.ik.L
+    101596: WGT-elbow_target.ik.R
+    101598: WGT-f_index.01.L
+    101600: WGT-f_index.01.R
+    101602: WGT-f_index.02.L
+    101604: WGT-f_index.02.R
+    101606: WGT-f_index.03.L
+    101608: WGT-f_index.03.R
+    101610: WGT-f_index.L
+    101612: WGT-f_index.R
+    101614: WGT-f_middle.01.L
+    101616: WGT-f_middle.01.R
+    101618: WGT-f_middle.02.L
+    101620: WGT-f_middle.02.R
+    101622: WGT-f_middle.03.L
+    101624: WGT-f_middle.03.R
+    101626: WGT-f_middle.L
+    101628: WGT-f_middle.R
+    101630: WGT-f_pinky.01.L
+    101632: WGT-f_pinky.01.R
+    101634: WGT-f_pinky.02.L
+    101636: WGT-f_pinky.02.R
+    101638: WGT-f_pinky.03.L
+    101640: WGT-f_pinky.03.R
+    101642: WGT-f_pinky.L
+    101644: WGT-f_pinky.R
+    101646: WGT-f_ring.01.L
+    101648: WGT-f_ring.01.R
+    101650: WGT-f_ring.02.L
+    101652: WGT-f_ring.02.R
+    101654: WGT-f_ring.03.L
+    101656: WGT-f_ring.03.R
+    101658: WGT-f_ring.L
+    101660: WGT-f_ring.R
+    101662: WGT-foot.fk.L
+    101664: WGT-foot.fk.R
+    101666: WGT-foot.ik.L
+    101668: WGT-foot.ik.R
+    101670: WGT-foot_roll.ik.L
+    101672: WGT-foot_roll.ik.R
+    101674: WGT-forearm.fk.L
+    101676: WGT-forearm.fk.R
+    101678: WGT-forearm_hose.L
+    101680: WGT-forearm_hose.R
+    101682: WGT-forearm_hose_end.L
+    101684: WGT-forearm_hose_end.R
+    101686: WGT-hand.fk.L
+    101688: WGT-hand.fk.R
+    101690: WGT-hand.ik.L
+    101692: WGT-hand.ik.R
+    101694: WGT-head
+    101696: WGT-hips
+    101698: WGT-knee_hose.L
+    101700: WGT-knee_hose.R
+    101702: WGT-knee_target.ik.L
+    101704: WGT-knee_target.ik.R
+    101706: WGT-neck
+    101708: WGT-palm.L
+    101710: WGT-palm.R
+    101712: WGT-root
+    101714: WGT-shin.fk.L
+    101716: WGT-shin.fk.R
+    101718: WGT-shin_hose.L
+    101720: WGT-shin_hose.R
+    101722: WGT-shin_hose_end.L
+    101724: WGT-shin_hose_end.R
+    101726: WGT-shoulder.L
+    101728: WGT-shoulder.R
+    101730: WGT-spine
+    101732: WGT-thigh.fk.L
+    101734: WGT-thigh.fk.R
+    101736: WGT-thigh_hose.L
+    101738: WGT-thigh_hose.R
+    101740: WGT-thigh_hose_end.L
+    101742: WGT-thigh_hose_end.R
+    101744: WGT-thumb.01.L
+    101746: WGT-thumb.01.R
+    101748: WGT-thumb.02.L
+    101750: WGT-thumb.02.R
+    101752: WGT-thumb.03.L
+    101754: WGT-thumb.03.R
+    101756: WGT-thumb.L
+    101758: WGT-thumb.R
+    101760: WGT-toe.L
+    101762: WGT-toe.R
+    101764: WGT-torso
+    101766: WGT-upper_arm.fk.L
+    101768: WGT-upper_arm.fk.R
+    101770: WGT-upper_arm_hose.L
+    101772: WGT-upper_arm_hose.R
+    101774: WGT-upper_arm_hose_end.L
+    101776: WGT-upper_arm_hose_end.R
+    101778: WGT-VIS-foot.ik.L
+    101780: WGT-VIS-foot.ik.R
+    101782: WGT-VIS-hand.ik.L
+    101784: WGT-VIS-hand.ik.R
+    101786: WGT-VIS-thigh_pole.ik.L
+    101788: WGT-VIS-thigh_pole.ik.R
+    101790: WGT-VIS-upper_arm_pole.ik.L
+    101792: WGT-VIS-upper_arm_pole.ik.R
+    400000: Armature
+    400002: Armature.001
+    400004: Camera
+    400006: chest
+    400008: chest 1
+    400010: chest 2
+    400012: DEF-chest
+    400014: DEF-chest_end
+    400016: DEF-f_index.01.L.01
+    400018: DEF-f_index.01.L.01_end
+    400020: DEF-f_index.01.L.02
+    400022: DEF-f_index.01.L.02_end
+    400024: DEF-f_index.01.R.01
+    400026: DEF-f_index.01.R.01_end
+    400028: DEF-f_index.01.R.02
+    400030: DEF-f_index.01.R.02_end
+    400032: DEF-f_index.02.L
+    400034: DEF-f_index.02.L_end
+    400036: DEF-f_index.02.R
+    400038: DEF-f_index.02.R_end
+    400040: DEF-f_index.03.L
+    400042: DEF-f_index.03.L_end
+    400044: DEF-f_index.03.R
+    400046: DEF-f_index.03.R_end
+    400048: DEF-f_middle.01.L.01
+    400050: DEF-f_middle.01.L.01_end
+    400052: DEF-f_middle.01.L.02
+    400054: DEF-f_middle.01.L.02_end
+    400056: DEF-f_middle.01.R.01
+    400058: DEF-f_middle.01.R.01_end
+    400060: DEF-f_middle.01.R.02
+    400062: DEF-f_middle.01.R.02_end
+    400064: DEF-f_middle.02.L
+    400066: DEF-f_middle.02.L_end
+    400068: DEF-f_middle.02.R
+    400070: DEF-f_middle.02.R_end
+    400072: DEF-f_middle.03.L
+    400074: DEF-f_middle.03.L_end
+    400076: DEF-f_middle.03.R
+    400078: DEF-f_middle.03.R_end
+    400080: DEF-f_pinky.01.L.01
+    400082: DEF-f_pinky.01.L.01_end
+    400084: DEF-f_pinky.01.L.02
+    400086: DEF-f_pinky.01.L.02_end
+    400088: DEF-f_pinky.01.R.01
+    400090: DEF-f_pinky.01.R.01_end
+    400092: DEF-f_pinky.01.R.02
+    400094: DEF-f_pinky.01.R.02_end
+    400096: DEF-f_pinky.02.L
+    400098: DEF-f_pinky.02.L_end
+    400100: DEF-f_pinky.02.R
+    400102: DEF-f_pinky.02.R_end
+    400104: DEF-f_pinky.03.L
+    400106: DEF-f_pinky.03.L_end
+    400108: DEF-f_pinky.03.R
+    400110: DEF-f_pinky.03.R_end
+    400112: DEF-f_ring.01.L.01
+    400114: DEF-f_ring.01.L.01_end
+    400116: DEF-f_ring.01.L.02
+    400118: DEF-f_ring.01.L.02_end
+    400120: DEF-f_ring.01.R.01
+    400122: DEF-f_ring.01.R.01_end
+    400124: DEF-f_ring.01.R.02
+    400126: DEF-f_ring.01.R.02_end
+    400128: DEF-f_ring.02.L
+    400130: DEF-f_ring.02.L_end
+    400132: DEF-f_ring.02.R
+    400134: DEF-f_ring.02.R_end
+    400136: DEF-f_ring.03.L
+    400138: DEF-f_ring.03.L_end
+    400140: DEF-f_ring.03.R
+    400142: DEF-f_ring.03.R_end
+    400144: DEF-foot.L
+    400146: DEF-foot.L_end
+    400148: DEF-foot.R
+    400150: DEF-foot.R_end
+    400152: DEF-forearm.01.L
+    400154: DEF-forearm.01.L_end
+    400156: DEF-forearm.01.R
+    400158: DEF-forearm.01.R_end
+    400160: DEF-forearm.02.L
+    400162: DEF-forearm.02.L_end
+    400164: DEF-forearm.02.R
+    400166: DEF-forearm.02.R_end
+    400168: DEF-hand.L
+    400170: DEF-hand.L_end
+    400172: DEF-hand.R
+    400174: DEF-hand.R_end
+    400176: DEF-head
+    400178: DEF-head_end
+    400180: DEF-hips
+    400182: DEF-hips_end
+    400184: DEF-neck
+    400186: DEF-neck_end
+    400188: DEF-palm.01.L
+    400190: DEF-palm.01.L_end
+    400192: DEF-palm.01.R
+    400194: DEF-palm.01.R_end
+    400196: DEF-palm.02.L
+    400198: DEF-palm.02.L_end
+    400200: DEF-palm.02.R
+    400202: DEF-palm.02.R_end
+    400204: DEF-palm.03.L
+    400206: DEF-palm.03.L_end
+    400208: DEF-palm.03.R
+    400210: DEF-palm.03.R_end
+    400212: DEF-palm.04.L
+    400214: DEF-palm.04.L_end
+    400216: DEF-palm.04.R
+    400218: DEF-palm.04.R_end
+    400220: DEF-shin.01.L
+    400222: DEF-shin.01.L_end
+    400224: DEF-shin.01.R
+    400226: DEF-shin.01.R_end
+    400228: DEF-shin.02.L
+    400230: DEF-shin.02.L_end
+    400232: DEF-shin.02.R
+    400234: DEF-shin.02.R_end
+    400236: DEF-shoulder.L
+    400238: DEF-shoulder.L_end
+    400240: DEF-shoulder.R
+    400242: DEF-shoulder.R_end
+    400244: DEF-spine
+    400246: DEF-spine_end
+    400248: DEF-thigh.01.L
+    400250: DEF-thigh.01.L_end
+    400252: DEF-thigh.01.R
+    400254: DEF-thigh.01.R_end
+    400256: DEF-thigh.02.L
+    400258: DEF-thigh.02.R
+    400260: DEF-thumb.01.L.01
+    400262: DEF-thumb.01.L.01_end
+    400264: DEF-thumb.01.L.02
+    400266: DEF-thumb.01.L.02_end
+    400268: DEF-thumb.01.R.01
+    400270: DEF-thumb.01.R.01_end
+    400272: DEF-thumb.01.R.02
+    400274: DEF-thumb.01.R.02_end
+    400276: DEF-thumb.02.L
+    400278: DEF-thumb.02.L_end
+    400280: DEF-thumb.02.R
+    400282: DEF-thumb.02.R_end
+    400284: DEF-thumb.03.L
+    400286: DEF-thumb.03.L_end
+    400288: DEF-thumb.03.R
+    400290: DEF-thumb.03.R_end
+    400292: DEF-toe.L
+    400294: DEF-toe.L_end
+    400296: DEF-toe.R
+    400298: DEF-toe.R_end
+    400300: DEF-upper_arm.01.L
+    400302: DEF-upper_arm.01.L_end
+    400304: DEF-upper_arm.01.R
+    400306: DEF-upper_arm.01.R_end
+    400308: DEF-upper_arm.02.L
+    400310: DEF-upper_arm.02.R
+    400312: elbow_hose.L
+    400314: elbow_hose.L_end
+    400316: elbow_hose.R
+    400318: elbow_hose.R_end
+    400320: elbow_target.ik.L
+    400322: elbow_target.ik.L_end
+    400324: elbow_target.ik.R
+    400326: elbow_target.ik.R_end
+    400328: Engineer
+    400330: //RootNode
+    400332: f_index.01.L
+    400334: f_index.01.L 1
+    400336: f_index.01.L 2
+    400338: f_index.01.R
+    400340: f_index.01.R 1
+    400342: f_index.01.R 2
+    400344: f_index.02.L
+    400346: f_index.02.L 1
+    400348: f_index.02.L 2
+    400350: f_index.02.R
+    400352: f_index.02.R 1
+    400354: f_index.02.R 2
+    400356: f_index.03.L
+    400358: f_index.03.L 1
+    400360: f_index.03.L 2
+    400362: f_index.03.L_end
+    400364: f_index.03.L_end 1
+    400366: f_index.03.L_end 2
+    400368: f_index.03.R
+    400370: f_index.03.R 1
+    400372: f_index.03.R 2
+    400374: f_index.03.R_end
+    400376: f_index.03.R_end 1
+    400378: f_index.03.R_end 2
+    400380: f_index.L
+    400382: f_index.L_end
+    400384: f_index.R
+    400386: f_index.R_end
+    400388: f_middle.01.L
+    400390: f_middle.01.L 1
+    400392: f_middle.01.L 2
+    400394: f_middle.01.R
+    400396: f_middle.01.R 1
+    400398: f_middle.01.R 2
+    400400: f_middle.02.L
+    400402: f_middle.02.L 1
+    400404: f_middle.02.L 2
+    400406: f_middle.02.R
+    400408: f_middle.02.R 1
+    400410: f_middle.02.R 2
+    400412: f_middle.03.L
+    400414: f_middle.03.L 1
+    400416: f_middle.03.L 2
+    400418: f_middle.03.L_end
+    400420: f_middle.03.L_end 1
+    400422: f_middle.03.L_end 2
+    400424: f_middle.03.R
+    400426: f_middle.03.R 1
+    400428: f_middle.03.R 2
+    400430: f_middle.03.R_end
+    400432: f_middle.03.R_end 1
+    400434: f_middle.03.R_end 2
+    400436: f_middle.L
+    400438: f_middle.L_end
+    400440: f_middle.R
+    400442: f_middle.R_end
+    400444: f_pinky.01.L
+    400446: f_pinky.01.L 1
+    400448: f_pinky.01.R
+    400450: f_pinky.01.R 1
+    400452: f_pinky.02.L
+    400454: f_pinky.02.L 1
+    400456: f_pinky.02.R
+    400458: f_pinky.02.R 1
+    400460: f_pinky.03.L
+    400462: f_pinky.03.L 1
+    400464: f_pinky.03.L_end
+    400466: f_pinky.03.L_end 1
+    400468: f_pinky.03.R
+    400470: f_pinky.03.R 1
+    400472: f_pinky.03.R_end
+    400474: f_pinky.03.R_end 1
+    400476: f_pinky.L
+    400478: f_pinky.L_end
+    400480: f_pinky.R
+    400482: f_pinky.R_end
+    400484: f_ring.01.L
+    400486: f_ring.01.L 1
+    400488: f_ring.01.L 2
+    400490: f_ring.01.R
+    400492: f_ring.01.R 1
+    400494: f_ring.01.R 2
+    400496: f_ring.02.L
+    400498: f_ring.02.L 1
+    400500: f_ring.02.L 2
+    400502: f_ring.02.R
+    400504: f_ring.02.R 1
+    400506: f_ring.02.R 2
+    400508: f_ring.03.L
+    400510: f_ring.03.L 1
+    400512: f_ring.03.L 2
+    400514: f_ring.03.L_end
+    400516: f_ring.03.L_end 1
+    400518: f_ring.03.L_end 2
+    400520: f_ring.03.R
+    400522: f_ring.03.R 1
+    400524: f_ring.03.R 2
+    400526: f_ring.03.R_end
+    400528: f_ring.03.R_end 1
+    400530: f_ring.03.R_end 2
+    400532: f_ring.L
+    400534: f_ring.L_end
+    400536: f_ring.R
+    400538: f_ring.R_end
+    400540: foot.fk.L
+    400542: foot.fk.R
+    400544: foot.ik.L
+    400546: foot.ik.R
+    400548: foot.L
+    400550: foot.L 1
+    400552: foot.R
+    400554: foot.R 1
+    400556: foot_roll.ik.L
+    400558: foot_roll.ik.L_end
+    400560: foot_roll.ik.R
+    400562: foot_roll.ik.R_end
+    400564: forearm.fk.L
+    400566: forearm.fk.R
+    400568: forearm.L
+    400570: forearm.L 1
+    400572: forearm.R
+    400574: forearm.R 1
+    400576: forearm_hose.L
+    400578: forearm_hose.L_end
+    400580: forearm_hose.R
+    400582: forearm_hose.R_end
+    400584: forearm_hose_end.L
+    400586: forearm_hose_end.L_end
+    400588: forearm_hose_end.R
+    400590: forearm_hose_end.R_end
+    400592: hand.fk.L
+    400594: hand.fk.R
+    400596: hand.ik.L
+    400598: hand.ik.R
+    400600: hand.L
+    400602: hand.L 1
+    400604: hand.R
+    400606: hand.R 1
+    400608: head
+    400610: head 1
+    400612: head 2
+    400614: head_end
+    400616: head_end 1
+    400618: heel.02.L
+    400620: heel.02.L 1
+    400622: heel.02.L_end
+    400624: heel.02.L_end 1
+    400626: heel.02.R
+    400628: heel.02.R 1
+    400630: heel.02.R_end
+    400632: heel.02.R_end 1
+    400634: heel.L
+    400636: heel.L 1
+    400638: heel.R
+    400640: heel.R 1
+    400642: hips
+    400644: hips 1
+    400646: hips 2
+    400648: knee_hose.L
+    400650: knee_hose.L_end
+    400652: knee_hose.R
+    400654: knee_hose.R_end
+    400656: knee_target.ik.L
+    400658: knee_target.ik.L_end
+    400660: knee_target.ik.R
+    400662: knee_target.ik.R_end
+    400664: Lamp
+    400666: MCH-chest.flex
+    400668: MCH-chest.flex_s
+    400670: MCH-chest.reverse
+    400672: MCH-chest.reverse_end
+    400674: MCH-elbow_hose_p.L
+    400676: MCH-elbow_hose_p.R
+    400678: MCH-elbow_target.ik_parent.L
+    400680: MCH-elbow_target.ik_parent.R
+    400682: MCH-f_index.01.L
+    400684: MCH-f_index.01.L.tip
+    400686: MCH-f_index.01.L.tip_end
+    400688: MCH-f_index.01.R
+    400690: MCH-f_index.01.R.tip
+    400692: MCH-f_index.01.R.tip_end
+    400694: MCH-f_index.02.L
+    400696: MCH-f_index.02.R
+    400698: MCH-f_index.03.L
+    400700: MCH-f_index.03.R
+    400702: MCH-f_middle.01.L
+    400704: MCH-f_middle.01.L.tip
+    400706: MCH-f_middle.01.L.tip_end
+    400708: MCH-f_middle.01.R
+    400710: MCH-f_middle.01.R.tip
+    400712: MCH-f_middle.01.R.tip_end
+    400714: MCH-f_middle.02.L
+    400716: MCH-f_middle.02.R
+    400718: MCH-f_middle.03.L
+    400720: MCH-f_middle.03.R
+    400722: MCH-f_pinky.01.L
+    400724: MCH-f_pinky.01.L.tip
+    400726: MCH-f_pinky.01.L.tip_end
+    400728: MCH-f_pinky.01.R
+    400730: MCH-f_pinky.01.R.tip
+    400732: MCH-f_pinky.01.R.tip_end
+    400734: MCH-f_pinky.02.L
+    400736: MCH-f_pinky.02.R
+    400738: MCH-f_pinky.03.L
+    400740: MCH-f_pinky.03.R
+    400742: MCH-f_ring.01.L
+    400744: MCH-f_ring.01.L.tip
+    400746: MCH-f_ring.01.L.tip_end
+    400748: MCH-f_ring.01.R
+    400750: MCH-f_ring.01.R.tip
+    400752: MCH-f_ring.01.R.tip_end
+    400754: MCH-f_ring.02.L
+    400756: MCH-f_ring.02.R
+    400758: MCH-f_ring.03.L
+    400760: MCH-f_ring.03.R
+    400762: MCH-foot.L
+    400764: MCH-foot.L.001
+    400766: MCH-foot.L.001_end
+    400768: MCH-foot.L.rocker.01
+    400770: MCH-foot.L.rocker.02
+    400772: MCH-foot.L.roll.01
+    400774: MCH-foot.L.roll.02
+    400776: MCH-foot.L_end
+    400778: MCH-foot.R
+    400780: MCH-foot.R.001
+    400782: MCH-foot.R.001_end
+    400784: MCH-foot.R.rocker.01
+    400786: MCH-foot.R.rocker.02
+    400788: MCH-foot.R.roll.01
+    400790: MCH-foot.R.roll.02
+    400792: MCH-foot.R_end
+    400794: MCH-forearm.01.L
+    400796: MCH-forearm.01.R
+    400798: MCH-forearm.ik.L
+    400800: MCH-forearm.ik.L_end
+    400802: MCH-forearm.ik.R
+    400804: MCH-forearm.ik.R_end
+    400806: MCH-forearm.junc.L
+    400808: MCH-forearm.junc.L_end
+    400810: MCH-forearm.junc.R
+    400812: MCH-forearm.junc.R_end
+    400814: MCH-forearm.nostr.ik.L
+    400816: MCH-forearm.nostr.ik.L_end
+    400818: MCH-forearm.nostr.ik.R
+    400820: MCH-forearm.nostr.ik.R_end
+    400822: MCH-forearm.stretch.ik.L
+    400824: MCH-forearm.stretch.ik.L_end
+    400826: MCH-forearm.stretch.ik.R
+    400828: MCH-forearm.stretch.ik.R_end
+    400830: MCH-forearm_antistr.fk.L
+    400832: MCH-forearm_antistr.fk.R
+    400834: MCH-forearm_hose_end_p.L
+    400836: MCH-forearm_hose_end_p.R
+    400838: MCH-forearm_hose_p.L
+    400840: MCH-forearm_hose_p.R
+    400842: MCH-forearm_smth.01.L
+    400844: MCH-forearm_smth.01.R
+    400846: MCH-hand.L
+    400848: MCH-hand.L.001
+    400850: MCH-hand.L.001_end
+    400852: MCH-hand.L_end
+    400854: MCH-hand.R
+    400856: MCH-hand.R.001
+    400858: MCH-hand.R.001_end
+    400860: MCH-hand.R_end
+    400862: MCH-head
+    400864: MCH-head.001
+    400866: MCH-head.001_end
+    400868: MCH-head.02
+    400870: MCH-head.socket1
+    400872: MCH-head.socket1_end
+    400874: MCH-head.socket2
+    400876: MCH-head_end
+    400878: MCH-hips.flex
+    400880: MCH-hips.flex_s
+    400882: MCH-hips.reverse
+    400884: MCH-hips.reverse_end
+    400886: MCH-hips_fk_ns_ch
+    400888: MCH-hips_fk_ns_ch.001
+    400890: MCH-hips_fk_ns_intr
+    400892: MCH-hips_fk_ns_intr.001
+    400894: MCH-hips_fk_ns_intr.001_end
+    400896: MCH-hips_fk_ns_intr_end
+    400898: MCH-hips_ik_ns_ch
+    400900: MCH-hips_ik_ns_ch.001
+    400902: MCH-hips_ik_ns_intr
+    400904: MCH-hips_ik_ns_intr.001
+    400906: MCH-hips_ik_ns_intr.001_end
+    400908: MCH-hips_ik_ns_intr_end
+    400910: MCH-hips_rh_ns_ch
+    400912: MCH-hips_rh_ns_ch.001
+    400914: MCH-hips_rh_ns_intr
+    400916: MCH-hips_rh_ns_intr.001
+    400918: MCH-hips_rh_ns_intr.001_end
+    400920: MCH-hips_rh_ns_intr_end
+    400922: MCH-knee_hose_p.L
+    400924: MCH-knee_hose_p.R
+    400926: MCH-knee_target.ik_parent.L
+    400928: MCH-knee_target.ik_parent.R
+    400930: MCH-neck
+    400932: MCH-neck.02
+    400934: MCH-neck.child
+    400936: MCH-neck.child_end
+    400938: MCH-neck.follow
+    400940: MCH-neck_end
+    400942: MCH-par_spine
+    400944: MCH-shin.01.L
+    400946: MCH-shin.01.R
+    400948: MCH-shin.ik.L
+    400950: MCH-shin.ik.L_end
+    400952: MCH-shin.ik.R
+    400954: MCH-shin.ik.R_end
+    400956: MCH-shin.junc.L
+    400958: MCH-shin.junc.L_end
+    400960: MCH-shin.junc.R
+    400962: MCH-shin.junc.R_end
+    400964: MCH-shin.nostr.ik.L
+    400966: MCH-shin.nostr.ik.L_end
+    400968: MCH-shin.nostr.ik.R
+    400970: MCH-shin.nostr.ik.R_end
+    400972: MCH-shin.stretch.ik.L
+    400974: MCH-shin.stretch.ik.L_end
+    400976: MCH-shin.stretch.ik.R
+    400978: MCH-shin.stretch.ik.R_end
+    400980: MCH-shin_antistr.fk.L
+    400982: MCH-shin_antistr.fk.R
+    400984: MCH-shin_hose_end_p.L
+    400986: MCH-shin_hose_end_p.R
+    400988: MCH-shin_hose_p.L
+    400990: MCH-shin_hose_p.R
+    400992: MCH-shin_smth.01.L
+    400994: MCH-shin_smth.01.R
+    400996: MCH-shoulder_fk_ns_ch.L
+    400998: MCH-shoulder_fk_ns_ch.R
+    401000: MCH-shoulder_fk_ns_intr.L
+    401002: MCH-shoulder_fk_ns_intr.L_end
+    401004: MCH-shoulder_fk_ns_intr.R
+    401006: MCH-shoulder_fk_ns_intr.R_end
+    401008: MCH-shoulder_ik_ns_ch.L
+    401010: MCH-shoulder_ik_ns_ch.R
+    401012: MCH-shoulder_ik_ns_intr.L
+    401014: MCH-shoulder_ik_ns_intr.L_end
+    401016: MCH-shoulder_ik_ns_intr.R
+    401018: MCH-shoulder_ik_ns_intr.R_end
+    401020: MCH-shoulder_rh_ns_ch.L
+    401022: MCH-shoulder_rh_ns_ch.R
+    401024: MCH-shoulder_rh_ns_intr.L
+    401026: MCH-shoulder_rh_ns_intr.L_end
+    401028: MCH-shoulder_rh_ns_intr.R
+    401030: MCH-shoulder_rh_ns_intr.R_end
+    401032: MCH-spine.flex
+    401034: MCH-spine.flex_s
+    401036: MCH-spine.reverse
+    401038: MCH-spine.reverse_end
+    401040: MCH-sub_chest
+    401042: MCH-sub_chest_end
+    401044: MCH-sub_hips
+    401046: MCH-sub_hips_end
+    401048: MCH-sub_spine
+    401050: MCH-sub_spine_end
+    401052: MCH-thigh.fk.L.socket1
+    401054: MCH-thigh.fk.L.socket1_end
+    401056: MCH-thigh.fk.L.socket2
+    401058: MCH-thigh.fk.R.socket1
+    401060: MCH-thigh.fk.R.socket1_end
+    401062: MCH-thigh.fk.R.socket2
+    401064: MCH-thigh.ik.L
+    401066: MCH-thigh.ik.R
+    401068: MCH-thigh.nostr.ik.L
+    401070: MCH-thigh.nostr.ik.R
+    401072: MCH-thigh.stretch.ik.L
+    401074: MCH-thigh.stretch.ik.L_end
+    401076: MCH-thigh.stretch.ik.R
+    401078: MCH-thigh.stretch.ik.R_end
+    401080: MCH-thigh_antistr.fk.L
+    401082: MCH-thigh_antistr.fk.R
+    401084: MCH-thigh_hose_end_p.L
+    401086: MCH-thigh_hose_end_p.R
+    401088: MCH-thigh_hose_p.L
+    401090: MCH-thigh_hose_p.R
+    401092: MCH-thigh_smth.02.L
+    401094: MCH-thigh_smth.02.L_end
+    401096: MCH-thigh_smth.02.R
+    401098: MCH-thigh_smth.02.R_end
+    401100: MCH-thumb.01.L
+    401102: MCH-thumb.01.L.tip
+    401104: MCH-thumb.01.L.tip_end
+    401106: MCH-thumb.01.R
+    401108: MCH-thumb.01.R.tip
+    401110: MCH-thumb.01.R.tip_end
+    401112: MCH-thumb.02.L
+    401114: MCH-thumb.02.R
+    401116: MCH-thumb.03.L
+    401118: MCH-thumb.03.R
+    401120: MCH-toe.L.parent
+    401122: MCH-toe.L.socket1
+    401124: MCH-toe.L.socket2
+    401126: MCH-toe.L.socket2_end
+    401128: MCH-toe.R.parent
+    401130: MCH-toe.R.socket1
+    401132: MCH-toe.R.socket2
+    401134: MCH-toe.R.socket2_end
+    401136: MCH-upper_arm.fk.L.socket1
+    401138: MCH-upper_arm.fk.L.socket1_end
+    401140: MCH-upper_arm.fk.L.socket2
+    401142: MCH-upper_arm.fk.R.socket1
+    401144: MCH-upper_arm.fk.R.socket1_end
+    401146: MCH-upper_arm.fk.R.socket2
+    401148: MCH-upper_arm.ik.L
+    401150: MCH-upper_arm.ik.R
+    401152: MCH-upper_arm.nostr.ik.L
+    401154: MCH-upper_arm.nostr.ik.R
+    401156: MCH-upper_arm.stretch.ik.L
+    401158: MCH-upper_arm.stretch.ik.L_end
+    401160: MCH-upper_arm.stretch.ik.R
+    401162: MCH-upper_arm.stretch.ik.R_end
+    401164: MCH-upper_arm_antistr.fk.L
+    401166: MCH-upper_arm_antistr.fk.R
+    401168: MCH-upper_arm_hose_end_p.L
+    401170: MCH-upper_arm_hose_end_p.R
+    401172: MCH-upper_arm_hose_p.L
+    401174: MCH-upper_arm_hose_p.R
+    401176: MCH-upper_arm_smth.02.L
+    401178: MCH-upper_arm_smth.02.L_end
+    401180: MCH-upper_arm_smth.02.R
+    401182: MCH-upper_arm_smth.02.R_end
+    401184: metarig
+    401186: metarig.001
+    401188: neck
+    401190: neck 1
+    401192: neck 2
+    401194: ORG-chest
+    401196: ORG-f_index.01.L
+    401198: ORG-f_index.01.R
+    401200: ORG-f_index.02.L
+    401202: ORG-f_index.02.R
+    401204: ORG-f_index.03.L
+    401206: ORG-f_index.03.R
+    401208: ORG-f_middle.01.L
+    401210: ORG-f_middle.01.R
+    401212: ORG-f_middle.02.L
+    401214: ORG-f_middle.02.R
+    401216: ORG-f_middle.03.L
+    401218: ORG-f_middle.03.R
+    401220: ORG-f_pinky.01.L
+    401222: ORG-f_pinky.01.R
+    401224: ORG-f_pinky.02.L
+    401226: ORG-f_pinky.02.R
+    401228: ORG-f_pinky.03.L
+    401230: ORG-f_pinky.03.R
+    401232: ORG-f_ring.01.L
+    401234: ORG-f_ring.01.R
+    401236: ORG-f_ring.02.L
+    401238: ORG-f_ring.02.R
+    401240: ORG-f_ring.03.L
+    401242: ORG-f_ring.03.R
+    401244: ORG-foot.L
+    401246: ORG-foot.R
+    401248: ORG-forearm.L
+    401250: ORG-forearm.R
+    401252: ORG-hand.L
+    401254: ORG-hand.R
+    401256: ORG-head
+    401258: ORG-head_end
+    401260: ORG-heel.02.L
+    401262: ORG-heel.02.L_end
+    401264: ORG-heel.02.R
+    401266: ORG-heel.02.R_end
+    401268: ORG-heel.L
+    401270: ORG-heel.R
+    401272: ORG-hips
+    401274: ORG-neck
+    401276: ORG-palm.01.L
+    401278: ORG-palm.01.R
+    401280: ORG-palm.02.L
+    401282: ORG-palm.02.R
+    401284: ORG-palm.03.L
+    401286: ORG-palm.03.R
+    401288: ORG-palm.04.L
+    401290: ORG-palm.04.R
+    401292: ORG-shin.L
+    401294: ORG-shin.R
+    401296: ORG-shoulder.L
+    401298: ORG-shoulder.R
+    401300: ORG-spine
+    401302: ORG-thigh.L
+    401304: ORG-thigh.R
+    401306: ORG-thumb.01.L
+    401308: ORG-thumb.01.R
+    401310: ORG-thumb.02.L
+    401312: ORG-thumb.02.R
+    401314: ORG-thumb.03.L
+    401316: ORG-thumb.03.R
+    401318: ORG-toe.L
+    401320: ORG-toe.R
+    401322: ORG-upper_arm.L
+    401324: ORG-upper_arm.R
+    401326: palm.01.L
+    401328: palm.01.L 1
+    401330: palm.01.R
+    401332: palm.01.R 1
+    401334: palm.02.L
+    401336: palm.02.L 1
+    401338: palm.02.R
+    401340: palm.02.R 1
+    401342: palm.03.L
+    401344: palm.03.L 1
+    401346: palm.03.R
+    401348: palm.03.R 1
+    401350: palm.04.L
+    401352: palm.04.R
+    401354: palm.L
+    401356: palm.L_end
+    401358: palm.R
+    401360: palm.R_end
+    401362: Rig
+    401364: rig
+    401366: root
+    401368: shin.fk.L
+    401370: shin.fk.R
+    401372: shin.L
+    401374: shin.L 1
+    401376: shin.R
+    401378: shin.R 1
+    401380: shin_hose.L
+    401382: shin_hose.L_end
+    401384: shin_hose.R
+    401386: shin_hose.R_end
+    401388: shin_hose_end.L
+    401390: shin_hose_end.L_end
+    401392: shin_hose_end.R
+    401394: shin_hose_end.R_end
+    401396: shoulder.L
+    401398: shoulder.L 1
+    401400: shoulder.L 2
+    401402: shoulder.L_end
+    401404: shoulder.R
+    401406: shoulder.R 1
+    401408: shoulder.R 2
+    401410: shoulder.R_end
+    401412: spine
+    401414: spine 1
+    401416: spine 2
+    401418: thigh.fk.L
+    401420: thigh.fk.R
+    401422: thigh.L
+    401424: thigh.L 1
+    401426: thigh.R
+    401428: thigh.R 1
+    401430: thigh_hose.L
+    401432: thigh_hose.L_end
+    401434: thigh_hose.R
+    401436: thigh_hose.R_end
+    401438: thigh_hose_end.L
+    401440: thigh_hose_end.L_end
+    401442: thigh_hose_end.R
+    401444: thigh_hose_end.R_end
+    401446: thumb.01.L
+    401448: thumb.01.L 1
+    401450: thumb.01.L 2
+    401452: thumb.01.R
+    401454: thumb.01.R 1
+    401456: thumb.01.R 2
+    401458: thumb.02.L
+    401460: thumb.02.L 1
+    401462: thumb.02.L 2
+    401464: thumb.02.R
+    401466: thumb.02.R 1
+    401468: thumb.02.R 2
+    401470: thumb.03.L
+    401472: thumb.03.L 1
+    401474: thumb.03.L 2
+    401476: thumb.03.L_end
+    401478: thumb.03.L_end 1
+    401480: thumb.03.L_end 2
+    401482: thumb.03.R
+    401484: thumb.03.R 1
+    401486: thumb.03.R 2
+    401488: thumb.03.R_end
+    401490: thumb.03.R_end 1
+    401492: thumb.03.R_end 2
+    401494: thumb.L
+    401496: thumb.L_end
+    401498: thumb.R
+    401500: thumb.R_end
+    401502: toe.L
+    401504: toe.L 1
+    401506: toe.L 2
+    401508: toe.L_end
+    401510: toe.L_end 1
+    401512: toe.L_end 2
+    401514: toe.R
+    401516: toe.R 1
+    401518: toe.R 2
+    401520: toe.R_end
+    401522: toe.R_end 1
+    401524: toe.R_end 2
+    401526: torso
+    401528: upper_arm.fk.L
+    401530: upper_arm.fk.R
+    401532: upper_arm.L
+    401534: upper_arm.L 1
+    401536: upper_arm.R
+    401538: upper_arm.R 1
+    401540: upper_arm_hose.L
+    401542: upper_arm_hose.L_end
+    401544: upper_arm_hose.R
+    401546: upper_arm_hose.R_end
+    401548: upper_arm_hose_end.L
+    401550: upper_arm_hose_end.L_end
+    401552: upper_arm_hose_end.R
+    401554: upper_arm_hose_end.R_end
+    401556: VIS-foot.ik.L
+    401558: VIS-foot.ik.L_end
+    401560: VIS-foot.ik.R
+    401562: VIS-foot.ik.R_end
+    401564: VIS-hand.ik.L
+    401566: VIS-hand.ik.L_end
+    401568: VIS-hand.ik.R
+    401570: VIS-hand.ik.R_end
+    401572: VIS-thigh_pole.ik.L
+    401574: VIS-thigh_pole.ik.L_end
+    401576: VIS-thigh_pole.ik.R
+    401578: VIS-thigh_pole.ik.R_end
+    401580: VIS-upper_arm_pole.ik.L
+    401582: VIS-upper_arm_pole.ik.L_end
+    401584: VIS-upper_arm_pole.ik.R
+    401586: VIS-upper_arm_pole.ik.R_end
+    401588: WGT-chest
+    401590: WGT-elbow_hose.L
+    401592: WGT-elbow_hose.R
+    401594: WGT-elbow_target.ik.L
+    401596: WGT-elbow_target.ik.R
+    401598: WGT-f_index.01.L
+    401600: WGT-f_index.01.R
+    401602: WGT-f_index.02.L
+    401604: WGT-f_index.02.R
+    401606: WGT-f_index.03.L
+    401608: WGT-f_index.03.R
+    401610: WGT-f_index.L
+    401612: WGT-f_index.R
+    401614: WGT-f_middle.01.L
+    401616: WGT-f_middle.01.R
+    401618: WGT-f_middle.02.L
+    401620: WGT-f_middle.02.R
+    401622: WGT-f_middle.03.L
+    401624: WGT-f_middle.03.R
+    401626: WGT-f_middle.L
+    401628: WGT-f_middle.R
+    401630: WGT-f_pinky.01.L
+    401632: WGT-f_pinky.01.R
+    401634: WGT-f_pinky.02.L
+    401636: WGT-f_pinky.02.R
+    401638: WGT-f_pinky.03.L
+    401640: WGT-f_pinky.03.R
+    401642: WGT-f_pinky.L
+    401644: WGT-f_pinky.R
+    401646: WGT-f_ring.01.L
+    401648: WGT-f_ring.01.R
+    401650: WGT-f_ring.02.L
+    401652: WGT-f_ring.02.R
+    401654: WGT-f_ring.03.L
+    401656: WGT-f_ring.03.R
+    401658: WGT-f_ring.L
+    401660: WGT-f_ring.R
+    401662: WGT-foot.fk.L
+    401664: WGT-foot.fk.R
+    401666: WGT-foot.ik.L
+    401668: WGT-foot.ik.R
+    401670: WGT-foot_roll.ik.L
+    401672: WGT-foot_roll.ik.R
+    401674: WGT-forearm.fk.L
+    401676: WGT-forearm.fk.R
+    401678: WGT-forearm_hose.L
+    401680: WGT-forearm_hose.R
+    401682: WGT-forearm_hose_end.L
+    401684: WGT-forearm_hose_end.R
+    401686: WGT-hand.fk.L
+    401688: WGT-hand.fk.R
+    401690: WGT-hand.ik.L
+    401692: WGT-hand.ik.R
+    401694: WGT-head
+    401696: WGT-hips
+    401698: WGT-knee_hose.L
+    401700: WGT-knee_hose.R
+    401702: WGT-knee_target.ik.L
+    401704: WGT-knee_target.ik.R
+    401706: WGT-neck
+    401708: WGT-palm.L
+    401710: WGT-palm.R
+    401712: WGT-root
+    401714: WGT-shin.fk.L
+    401716: WGT-shin.fk.R
+    401718: WGT-shin_hose.L
+    401720: WGT-shin_hose.R
+    401722: WGT-shin_hose_end.L
+    401724: WGT-shin_hose_end.R
+    401726: WGT-shoulder.L
+    401728: WGT-shoulder.R
+    401730: WGT-spine
+    401732: WGT-thigh.fk.L
+    401734: WGT-thigh.fk.R
+    401736: WGT-thigh_hose.L
+    401738: WGT-thigh_hose.R
+    401740: WGT-thigh_hose_end.L
+    401742: WGT-thigh_hose_end.R
+    401744: WGT-thumb.01.L
+    401746: WGT-thumb.01.R
+    401748: WGT-thumb.02.L
+    401750: WGT-thumb.02.R
+    401752: WGT-thumb.03.L
+    401754: WGT-thumb.03.R
+    401756: WGT-thumb.L
+    401758: WGT-thumb.R
+    401760: WGT-toe.L
+    401762: WGT-toe.R
+    401764: WGT-torso
+    401766: WGT-upper_arm.fk.L
+    401768: WGT-upper_arm.fk.R
+    401770: WGT-upper_arm_hose.L
+    401772: WGT-upper_arm_hose.R
+    401774: WGT-upper_arm_hose_end.L
+    401776: WGT-upper_arm_hose_end.R
+    401778: WGT-VIS-foot.ik.L
+    401780: WGT-VIS-foot.ik.R
+    401782: WGT-VIS-hand.ik.L
+    401784: WGT-VIS-hand.ik.R
+    401786: WGT-VIS-thigh_pole.ik.L
+    401788: WGT-VIS-thigh_pole.ik.R
+    401790: WGT-VIS-upper_arm_pole.ik.L
+    401792: WGT-VIS-upper_arm_pole.ik.R
+    2300000: WGT-chest
+    2300002: WGT-elbow_hose.L
+    2300004: WGT-elbow_hose.R
+    2300006: WGT-elbow_target.ik.L
+    2300008: WGT-elbow_target.ik.R
+    2300010: WGT-f_index.01.L
+    2300012: WGT-f_index.01.R
+    2300014: WGT-f_index.02.L
+    2300016: WGT-f_index.02.R
+    2300018: WGT-f_index.03.L
+    2300020: WGT-f_index.03.R
+    2300022: WGT-f_index.L
+    2300024: WGT-f_index.R
+    2300026: WGT-f_middle.01.L
+    2300028: WGT-f_middle.01.R
+    2300030: WGT-f_middle.02.L
+    2300032: WGT-f_middle.02.R
+    2300034: WGT-f_middle.03.L
+    2300036: WGT-f_middle.03.R
+    2300038: WGT-f_middle.L
+    2300040: WGT-f_middle.R
+    2300042: WGT-f_pinky.01.L
+    2300044: WGT-f_pinky.01.R
+    2300046: WGT-f_pinky.02.L
+    2300048: WGT-f_pinky.02.R
+    2300050: WGT-f_pinky.03.L
+    2300052: WGT-f_pinky.03.R
+    2300054: WGT-f_pinky.L
+    2300056: WGT-f_pinky.R
+    2300058: WGT-f_ring.01.L
+    2300060: WGT-f_ring.01.R
+    2300062: WGT-f_ring.02.L
+    2300064: WGT-f_ring.02.R
+    2300066: WGT-f_ring.03.L
+    2300068: WGT-f_ring.03.R
+    2300070: WGT-f_ring.L
+    2300072: WGT-f_ring.R
+    2300074: WGT-foot.fk.L
+    2300076: WGT-foot.fk.R
+    2300078: WGT-foot.ik.L
+    2300080: WGT-foot.ik.R
+    2300082: WGT-foot_roll.ik.L
+    2300084: WGT-foot_roll.ik.R
+    2300086: WGT-forearm.fk.L
+    2300088: WGT-forearm.fk.R
+    2300090: WGT-forearm_hose.L
+    2300092: WGT-forearm_hose.R
+    2300094: WGT-forearm_hose_end.L
+    2300096: WGT-forearm_hose_end.R
+    2300098: WGT-hand.fk.L
+    2300100: WGT-hand.fk.R
+    2300102: WGT-hand.ik.L
+    2300104: WGT-hand.ik.R
+    2300106: WGT-head
+    2300108: WGT-hips
+    2300110: WGT-knee_hose.L
+    2300112: WGT-knee_hose.R
+    2300114: WGT-knee_target.ik.L
+    2300116: WGT-knee_target.ik.R
+    2300118: WGT-neck
+    2300120: WGT-palm.L
+    2300122: WGT-palm.R
+    2300124: WGT-root
+    2300126: WGT-shin.fk.L
+    2300128: WGT-shin.fk.R
+    2300130: WGT-shin_hose.L
+    2300132: WGT-shin_hose.R
+    2300134: WGT-shin_hose_end.L
+    2300136: WGT-shin_hose_end.R
+    2300138: WGT-shoulder.L
+    2300140: WGT-shoulder.R
+    2300142: WGT-spine
+    2300144: WGT-thigh.fk.L
+    2300146: WGT-thigh.fk.R
+    2300148: WGT-thigh_hose.L
+    2300150: WGT-thigh_hose.R
+    2300152: WGT-thigh_hose_end.L
+    2300154: WGT-thigh_hose_end.R
+    2300156: WGT-thumb.01.L
+    2300158: WGT-thumb.01.R
+    2300160: WGT-thumb.02.L
+    2300162: WGT-thumb.02.R
+    2300164: WGT-thumb.03.L
+    2300166: WGT-thumb.03.R
+    2300168: WGT-thumb.L
+    2300170: WGT-thumb.R
+    2300172: WGT-toe.L
+    2300174: WGT-toe.R
+    2300176: WGT-torso
+    2300178: WGT-upper_arm.fk.L
+    2300180: WGT-upper_arm.fk.R
+    2300182: WGT-upper_arm_hose.L
+    2300184: WGT-upper_arm_hose.R
+    2300186: WGT-upper_arm_hose_end.L
+    2300188: WGT-upper_arm_hose_end.R
+    2300190: WGT-VIS-foot.ik.L
+    2300192: WGT-VIS-foot.ik.R
+    2300194: WGT-VIS-hand.ik.L
+    2300196: WGT-VIS-hand.ik.R
+    2300198: WGT-VIS-thigh_pole.ik.L
+    2300200: WGT-VIS-thigh_pole.ik.R
+    2300202: WGT-VIS-upper_arm_pole.ik.L
+    2300204: WGT-VIS-upper_arm_pole.ik.R
+    2300206: //RootNode
+    3300000: WGT-chest
+    3300002: WGT-elbow_hose.L
+    3300004: WGT-elbow_hose.R
+    3300006: WGT-elbow_target.ik.L
+    3300008: WGT-elbow_target.ik.R
+    3300010: WGT-f_index.01.L
+    3300012: WGT-f_index.01.R
+    3300014: WGT-f_index.02.L
+    3300016: WGT-f_index.02.R
+    3300018: WGT-f_index.03.L
+    3300020: WGT-f_index.03.R
+    3300022: WGT-f_index.L
+    3300024: WGT-f_index.R
+    3300026: WGT-f_middle.01.L
+    3300028: WGT-f_middle.01.R
+    3300030: WGT-f_middle.02.L
+    3300032: WGT-f_middle.02.R
+    3300034: WGT-f_middle.03.L
+    3300036: WGT-f_middle.03.R
+    3300038: WGT-f_middle.L
+    3300040: WGT-f_middle.R
+    3300042: WGT-f_pinky.01.L
+    3300044: WGT-f_pinky.01.R
+    3300046: WGT-f_pinky.02.L
+    3300048: WGT-f_pinky.02.R
+    3300050: WGT-f_pinky.03.L
+    3300052: WGT-f_pinky.03.R
+    3300054: WGT-f_pinky.L
+    3300056: WGT-f_pinky.R
+    3300058: WGT-f_ring.01.L
+    3300060: WGT-f_ring.01.R
+    3300062: WGT-f_ring.02.L
+    3300064: WGT-f_ring.02.R
+    3300066: WGT-f_ring.03.L
+    3300068: WGT-f_ring.03.R
+    3300070: WGT-f_ring.L
+    3300072: WGT-f_ring.R
+    3300074: WGT-foot.fk.L
+    3300076: WGT-foot.fk.R
+    3300078: WGT-foot.ik.L
+    3300080: WGT-foot.ik.R
+    3300082: WGT-foot_roll.ik.L
+    3300084: WGT-foot_roll.ik.R
+    3300086: WGT-forearm.fk.L
+    3300088: WGT-forearm.fk.R
+    3300090: WGT-forearm_hose.L
+    3300092: WGT-forearm_hose.R
+    3300094: WGT-forearm_hose_end.L
+    3300096: WGT-forearm_hose_end.R
+    3300098: WGT-hand.fk.L
+    3300100: WGT-hand.fk.R
+    3300102: WGT-hand.ik.L
+    3300104: WGT-hand.ik.R
+    3300106: WGT-head
+    3300108: WGT-hips
+    3300110: WGT-knee_hose.L
+    3300112: WGT-knee_hose.R
+    3300114: WGT-knee_target.ik.L
+    3300116: WGT-knee_target.ik.R
+    3300118: WGT-neck
+    3300120: WGT-palm.L
+    3300122: WGT-palm.R
+    3300124: WGT-root
+    3300126: WGT-shin.fk.L
+    3300128: WGT-shin.fk.R
+    3300130: WGT-shin_hose.L
+    3300132: WGT-shin_hose.R
+    3300134: WGT-shin_hose_end.L
+    3300136: WGT-shin_hose_end.R
+    3300138: WGT-shoulder.L
+    3300140: WGT-shoulder.R
+    3300142: WGT-spine
+    3300144: WGT-thigh.fk.L
+    3300146: WGT-thigh.fk.R
+    3300148: WGT-thigh_hose.L
+    3300150: WGT-thigh_hose.R
+    3300152: WGT-thigh_hose_end.L
+    3300154: WGT-thigh_hose_end.R
+    3300156: WGT-thumb.01.L
+    3300158: WGT-thumb.01.R
+    3300160: WGT-thumb.02.L
+    3300162: WGT-thumb.02.R
+    3300164: WGT-thumb.03.L
+    3300166: WGT-thumb.03.R
+    3300168: WGT-thumb.L
+    3300170: WGT-thumb.R
+    3300172: WGT-toe.L
+    3300174: WGT-toe.R
+    3300176: WGT-torso
+    3300178: WGT-upper_arm.fk.L
+    3300180: WGT-upper_arm.fk.R
+    3300182: WGT-upper_arm_hose.L
+    3300184: WGT-upper_arm_hose.R
+    3300186: WGT-upper_arm_hose_end.L
+    3300188: WGT-upper_arm_hose_end.R
+    3300190: WGT-VIS-foot.ik.L
+    3300192: WGT-VIS-foot.ik.R
+    3300194: WGT-VIS-hand.ik.L
+    3300196: WGT-VIS-hand.ik.R
+    3300198: WGT-VIS-thigh_pole.ik.L
+    3300200: WGT-VIS-thigh_pole.ik.R
+    3300202: WGT-VIS-upper_arm_pole.ik.L
+    3300204: WGT-VIS-upper_arm_pole.ik.R
+    3300206: //RootNode
+    4300000: WGT-root
+    4300002: WGT-thumb.03.R
+    4300004: WGT-thumb.02.R
+    4300006: WGT-thumb.01.R
+    4300008: WGT-thumb.R
+    4300010: WGT-thumb.03.L
+    4300012: WGT-thumb.02.L
+    4300014: WGT-thumb.01.L
+    4300016: WGT-thumb.L
+    4300018: WGT-f_ring.03.R
+    4300020: WGT-f_ring.02.R
+    4300022: WGT-f_ring.01.R
+    4300024: WGT-f_ring.R
+    4300026: WGT-f_ring.03.L
+    4300028: WGT-f_ring.02.L
+    4300030: WGT-f_ring.01.L
+    4300032: WGT-f_ring.L
+    4300034: WGT-f_pinky.03.R
+    4300036: WGT-f_pinky.02.R
+    4300038: WGT-f_pinky.01.R
+    4300040: WGT-f_pinky.R
+    4300042: WGT-f_pinky.03.L
+    4300044: WGT-f_pinky.02.L
+    4300046: WGT-f_pinky.01.L
+    4300048: WGT-f_pinky.L
+    4300050: WGT-f_middle.03.R
+    4300052: WGT-f_middle.02.R
+    4300054: WGT-f_middle.01.R
+    4300056: WGT-f_middle.R
+    4300058: WGT-f_middle.03.L
+    4300060: WGT-f_middle.02.L
+    4300062: WGT-f_middle.01.L
+    4300064: WGT-f_middle.L
+    4300066: WGT-f_index.03.R
+    4300068: WGT-f_index.02.R
+    4300070: WGT-f_index.01.R
+    4300072: WGT-f_index.R
+    4300074: WGT-f_index.03.L
+    4300076: WGT-f_index.02.L
+    4300078: WGT-f_index.01.L
+    4300080: WGT-f_index.L
+    4300082: WGT-palm.R
+    4300084: WGT-palm.L
+    4300086: WGT-hand.ik.R
+    4300088: WGT-elbow_target.ik.R
+    4300090: WGT-VIS-hand.ik.R
+    4300092: WGT-VIS-upper_arm_pole.ik.R
+    4300094: WGT-hand.fk.R
+    4300096: WGT-forearm.fk.R
+    4300098: WGT-upper_arm.fk.R
+    4300100: WGT-forearm_hose_end.R
+    4300102: WGT-forearm_hose.R
+    4300104: WGT-elbow_hose.R
+    4300106: WGT-upper_arm_hose.R
+    4300108: WGT-upper_arm_hose_end.R
+    4300110: WGT-hand.ik.L
+    4300112: WGT-elbow_target.ik.L
+    4300114: WGT-VIS-hand.ik.L
+    4300116: WGT-VIS-upper_arm_pole.ik.L
+    4300118: WGT-hand.fk.L
+    4300120: WGT-forearm.fk.L
+    4300122: WGT-upper_arm.fk.L
+    4300124: WGT-forearm_hose_end.L
+    4300126: WGT-forearm_hose.L
+    4300128: WGT-elbow_hose.L
+    4300130: WGT-upper_arm_hose.L
+    4300132: WGT-upper_arm_hose_end.L
+    4300134: WGT-shoulder.R
+    4300136: WGT-shoulder.L
+    4300138: WGT-head
+    4300140: WGT-neck
+    4300142: WGT-foot_roll.ik.R
+    4300144: WGT-toe.R
+    4300146: WGT-foot.ik.R
+    4300148: WGT-knee_target.ik.R
+    4300150: WGT-VIS-foot.ik.R
+    4300152: WGT-VIS-thigh_pole.ik.R
+    4300154: WGT-foot.fk.R
+    4300156: WGT-shin.fk.R
+    4300158: WGT-thigh.fk.R
+    4300160: WGT-shin_hose_end.R
+    4300162: WGT-shin_hose.R
+    4300164: WGT-knee_hose.R
+    4300166: WGT-thigh_hose.R
+    4300168: WGT-thigh_hose_end.R
+    4300170: WGT-foot_roll.ik.L
+    4300172: WGT-toe.L
+    4300174: WGT-foot.ik.L
+    4300176: WGT-knee_target.ik.L
+    4300178: WGT-VIS-foot.ik.L
+    4300180: WGT-VIS-thigh_pole.ik.L
+    4300182: WGT-foot.fk.L
+    4300184: WGT-shin.fk.L
+    4300186: WGT-thigh.fk.L
+    4300188: WGT-shin_hose_end.L
+    4300190: WGT-shin_hose.L
+    4300192: WGT-knee_hose.L
+    4300194: WGT-thigh_hose.L
+    4300196: WGT-thigh_hose_end.L
+    4300198: WGT-chest
+    4300200: WGT-hips
+    4300202: WGT-spine
+    4300204: WGT-torso
+    4300206: Engineer
+    7400000: Armature|Armature|Take 001|BaseLayer
+    7400002: Armature.001|Armature|Take 001|BaseLayer.001
+    7400004: Engineer|EngineerAction
+    9500000: //RootNode
+    13700000: Engineer
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

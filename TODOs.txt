@@ -1,0 +1,154 @@
+UPDATED TODOS:
+P	[ ] Tutorial/Start Video
+R	[ ] Be friendly
+J	[ ] Report
+PRJG[ ] Practice speech
+
+KNOWN BUGS:
+PR	[ ] SetDestination/Resume verursachen Teleportationen
+	[ ] Bug wenn 3 Spieler (ohne 1) alles durcheinander
+	[ ] Bug in BodyPartsGrowing: GameObject can be Destroyed in Line 52 (maybe only after second Round)
+	[kind of] Wenn man das Wunder erhält checken, ob schon jemand im Innern des Zylinders ist, falls ja konvertieren
+	[ ] Wieso stehen die 2 Häuser so nahe zusammen?
+
+ADJUSTMENTS:
+	[ ] Kolben/Kreuze etwas kleiner (Trefferbereich ziemlich gross)
+	[ ] Wonder Cylinder Rotation when rotating character
+	[ ] detect properly who is praying with whom
+		[ ] at the moment it is just checking whether your target close by and is praying
+		[ ] larger group currently only speeds up linearly
+		
+	Must Dos:
+	[ ] Cooldown, längere Animation (R)
+	[ ] Animationen richtig timen (A)
+	
+	Nice to Dos:
+	[ ] Alternative Controller Steuerung
+	[ ] Controls anpassen
+	[ ] Explosion => direction
+	
+NEW FEATURES:
+	[ ] Schuss reflektieren können?
+	[ ] Tutorial
+	[ ] implement evolution
+	
+We decided Not to do:
+	[ ] Button klickbar um seinen Spieler zu finden
+	[ ] Schiessen unterer Knopf? (Kommentar(G): G ist dagegen xD)
+	[ ] Weniger lange fliegen lassen (Kommentar(G): G ist dagegen P ist auch dagegen xD)
+	[ ] Spielzeit abhängig von Anzahl Spieler? (Spieler einstellen lassen?)
+	[ ] Schüsse können Gegner konvertieren
+	[ ] Friendly fire als option den Spielern überlassen?
+	
+DONE:	
+
+STUFF FROM PLAYTESTING:
+NEW TODO (PLAYTESTING):
+STUFF FOR ALPHA RELEASE:
+FOR LATER:
+		
+P	[X] AUdio Manager
+PR	[X] 2 Wunder kollidieren -> beide Wunder weg (+ super Explosion) (Kommentar(G): Whuuuuut???)
+G	[X] Wonder Indication
+J	[X] Models for shoot effect
+G	[X] Rotation of shooting object
+R	[X] UI Bars
+
+
+	
+	[X] Allein beten zulassen, nicht intuitiv (ev erst wenn nur noch sehr wenige Spieler auf dem Feld)
+	[X] Start Menu Musik
+	[X] Kolben/Kreuz rotieren lassen im Raum (Kommentar(G): geht nicht, das sind Billboards)
+	[X] In der unteren Bar die Mitte kennzeichnen (Strich bei 50%)
+	[X] Statistik am Schluss (pro Spiele: #treffer, #getroffen worden, #konversionen, #konvertiert worden, gebetete Zeit)
+	[X] Gras nicht mehr reflektieren lassen
+	[X] Pause button anbieten 
+
+
+		
+	[X] Wasser zu sensitiv (J/P)
+	[X] Sound balancing (P)
+	[X] Start Menu
+	[X] Abschluss (R+P)
+	[X] Marker (Spitz, Farben und Grösse) (G)
+	[X] Insel Redesign (P)
+	[X] Praying indication => glow (G)
+	[X] Bugs fixen (A)
+		[X] Wonder wenn nicht aktiviert aber konveriert geht verloren (R)
+		[X] Spieler sind permanent rot/gelb (R)
+		[X] Spieler schiessen sich wieder ab wgen schnellerem Speed, Schüsse vlt auch zu langsam 
+			=> Schüsse schneller gemacht
+	[X] UI optimieren (R)
+	[X] Unverwundbarkeit besser darstellen => flashing light (G)
+	[X] Countdown bevor das Spiel startet (R)
+	[X] Darwinists heller/gelber (J)
+	[X] Wonder Points dynamisch und abhängig von Anzahl Spieler (R)
+
+
+	
+	[X] Charakter mit Wonder kann abgeschossen werden (kleiner Push)
+	[X] AI Charakter übernehmen nach Konvertierung
+
+
+	[X] Exportieren zu einem Executable
+	[X] Im PlayTest fragen, ob es lustiger wäre wenn das Wunder sofort gecasted wird
+	[X] NPC's übernehmen, wenn man konvertiert wird?
+	[X] Wonderpoint-Threshold should depend on number of players (human or non-human)
+	
+FEEDBACK INTERIM DEMO:
+	[X] klarer darstellen, was der rote Kreis unter dem Spieler bedeutet (weglassen, wenn multiplayer implementiert.  wenns drin bleiben soll vielleicht visuell den Kreis auffüllen während aufladen des Wunders. Möglichst visuell nicht zu überladen, besser mit Blinken oder so darstellen, wenn es soweit ist)
+	[X] Wunder sofort casten vergleichen mit nicht sofort casten. (ich finde sofort gecasted besser. das prinzip muss so einfach wie möglich sein, weniger ist mehr!)
+		- von mir aus könnte man es weglassen (Ruben), das würde auch das vorherige todo lösen ;-)
+	[X] ein Spiel das man nicht verlieren kann als Core Feature?
+	
+
+		[X] player cannot pray yet, he is only prayed with
+			- players can commit to praying but not pray with other human player yet
+    [X] Prozedurales Level Design
+    [X] Wonder Cylinder must match with area of conversion.
+		
+
+	
+	[X] Fuss des Religioner Players ist zu gross, normal gross machen
+	[X] Darwinist und Religioner gleich gross + Colliders anpassen
+	[X] Darwinist Marker gleich gross wie der vom Religioner
+	[X] Darwinist WunderZylinder gleich gross wie der vom Religioner
+	[X] Sound für die letzten 10 Sekunden, damit man weiss, dass bald fertig ist
+		Idee, vielleicht für Extras: Musik dynamisch immer schneller werden lassen während des Spiels,
+		und die letzten 10 Sekunden akkustisch hervorheben (10 mal Piep oder so was...)
+	[X] Man sieht bei den Darwinists nicht, wenn das Wunder voll ist
+	[X] Wasser verbessern
+	[X] Start Screen, Keyboard/Joystick + Rasse wählen für bis zu 4 Spieler
+
+	[X] Wunder sollte auch von AI ausführbar sein
+	[X] AI sollte wegrennen wenn der Gegner mit Wunder in der Nähe ist
+		- AI flüchtet wenn ein gegner in der nähe das wunder besitzt (entweder aktiviert oder auch nicht).
+	[X] multiplayer bald implementieren
+	[X] UI weniger ablenkend, es sollte so einfach und übersichtlich sein wie nur möglich
+		- text entfernen
+		- vielleicht auch sonst noch elemente entfernen
+	[X] zoom out mit camera, sodass alle player sichbar sind
+	[X] während wunder angreifbar anstatt unverwundbar, macht intuitiv mehr sinn
+		- während des wunders immer noch unverwundbar, aber kann nicht mehr angreifen
+	[X] characters sollten lustiger sein
+
+	[X] Spiel für Screen Resolution anpassen, sodass keine überlappungen bein kleiner screen resolution
+		[X] Alle human players sind immer sichtbar, egal wie gross die auflösung ist
+		[X] UI scalable machen
+
+	[X] make wonder casting more modular such that it works for AI and Players (both casting and being converted)
+
+	[X] fix respawning:
+		- players respawn even though they do not visually touch the water
+		
+    IMPORTANT FOR INTERIM DEMO:
+
+	[X] fix duration of praying animation
+	[X] fix spelling mistake in Trigger (pray not prey)
+
+	[X] fix immunity when creating wonder
+		- players are immune when casting a wonder (only when it is activated)
+	[X]	the player can be hit when casting the wonder
+		- not any more
+	[X] are there 2 characters or two playerMovement Components
+		- the problem was, that players reset their state from wonder to idle because they thought that they are immune from being hit.

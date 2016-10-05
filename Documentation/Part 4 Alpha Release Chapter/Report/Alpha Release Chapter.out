@@ -1,0 +1,18 @@
+\BOOKMARK [1][-]{section.1}{Current Stage}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Task Distribution}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Project Management}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{Timeline}{section.1}% 4
+\BOOKMARK [1][-]{section.2}{Obstacles and Revisions}{}% 5
+\BOOKMARK [2][-]{subsection.2.1}{Physics}{section.2}% 6
+\BOOKMARK [3][-]{subsubsection.2.1.1}{Explosion Forces}{subsection.2.1}% 7
+\BOOKMARK [3][-]{subsubsection.2.1.2}{Camera for Multi-Player}{subsection.2.1}% 8
+\BOOKMARK [2][-]{subsection.2.2}{Modelling and Animations}{section.2}% 9
+\BOOKMARK [3][-]{subsubsection.2.2.1}{Rotated Model}{subsection.2.2}% 10
+\BOOKMARK [3][-]{subsubsection.2.2.2}{Deleting Animations}{subsection.2.2}% 11
+\BOOKMARK [3][-]{subsubsection.2.2.3}{Scaling after Export from Maya}{subsection.2.2}% 12
+\BOOKMARK [3][-]{subsubsection.2.2.4}{Inverse Kinematics}{subsection.2.2}% 13
+\BOOKMARK [3][-]{subsubsection.2.2.5}{Body parts growing}{subsection.2.2}% 14
+\BOOKMARK [3][-]{subsubsection.2.2.6}{Shadows}{subsection.2.2}% 15
+\BOOKMARK [2][-]{subsection.2.3}{AI}{section.2}% 16
+\BOOKMARK [3][-]{subsubsection.2.3.1}{Praying for Human Players}{subsection.2.3}% 17
+\BOOKMARK [1][-]{section.3}{Alpha Release Conclusion}{}% 18

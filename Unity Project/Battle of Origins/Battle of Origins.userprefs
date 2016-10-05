@@ -1,0 +1,21 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\StartGameScripts\AddPlayers.cs">
+    <Files>
+      <File FileName="Assets\Scripts\Camera\CameraFollow.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Managers\Model.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Common\Character.cs" Line="157" Column="13" />
+      <File FileName="Assets\Scripts\Managers\PlayerSpawner.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Common\BodyPartsGrowing.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Effects\ShootingBehavior.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Managers\ScoreManager.cs" Line="1" Column="1" />
+      <File FileName="d:\ETHZ\Game Programming Laboratory\Unity Project\Battle of Origins\Assets\Scripts\Enemy\EnemyMovement.cs" Line="1" Column="1" />
+      <File FileName="d:\ETHZ\Game Programming Laboratory\Unity Project\Battle of Origins\Assets\Scripts\Player\PlayerPray.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\StartGameScripts\AddPlayers.cs" Line="34" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

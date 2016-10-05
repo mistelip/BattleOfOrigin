@@ -1,0 +1,743 @@
+{\documentclass[11pt,a4paper,titlepage,table]{article}
+\usepackage[a4paper]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{lipsum}
+
+\usepackage{amsmath, amssymb, amsfonts, amsthm, fouriernc}
+% mathtools for: Aboxed (put box on last equation in align envirenment)
+\usepackage{microtype} %improves the spacing between words and letters
+
+\usepackage{graphicx}
+\graphicspath{ {./pics/} {./eps/}}
+\usepackage{epsfig}
+\usepackage{epstopdf}
+\usepackage{colortbl}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% COLOR DEFINITIONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\usepackage{colortbl}
+\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
+\usepackage{float}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\definecolor{MyColor1}{HTML}{75A42E}
+\definecolor{MyColor2}{HTML}{75A42E}
+\definecolor{MyColor3}{HTML}{4D6D1E}
+\definecolor{green1}{HTML}{EAF5DB}
+\definecolor{green2}{HTML}{C2E193}
+\definecolor{maroon}{cmyk}{0,0.87,0.68,0.32}
+\newcommand{\textb}{\color{Black} \usefont{OT1}{lmss}{m}{n}}
+\newcommand{\blue}{\color{MyColor1} \usefont{OT1}{lmss}{m}{n}}
+\newcommand{\blueb}{\color{MyColor1} \usefont{OT1}{lmss}{b}{n}}
+\newcommand{\red}{\color{LightCoral} \usefont{OT1}{lmss}{m}{n}}
+\newcommand{\green}{\color{Turquoise} \usefont{OT1}{lmss}{m}{n}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% FONTS AND COLORS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%    SECTIONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{titlesec}
+\usepackage{sectsty}
+%%%%%%%%%%%%%%%%%%%%%%%%
+%set section/subsections HEADINGS font and color
+\sectionfont{\color{MyColor1}}  % sets colour of sections
+\subsectionfont{\color{MyColor2}}  % sets colour of sections
+\subsubsectionfont{\color{MyColor3}}  % sets colour of sections
+
+%set section enumerator to arabic number (see footnotes markings alternatives)
+\renewcommand\thesection{\arabic{section}.} %define sections numbering
+\renewcommand\thesubsection{\thesection\arabic{subsection}} %subsec.num.
+
+%define new section style
+\newcommand{\mysection}{
+	\titleformat{\section} [runin] {\usefont{OT1}{lmss}{b}{n}\color{MyColor1}} 
+	{\thesection} {3pt} {} } 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%		CAPTIONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{caption}
+\usepackage{subcaption}
+%%%%%%%%%%%%%%%%%%%%%%%%
+\captionsetup[figure]{labelfont={color=MyColor1}}
+
+\makeatletter
+\let\reftagform@=\tagform@
+\def\tagform@#1{\maketag@@@{(\ignorespaces\textcolor{red}{#1}\unskip\@@italiccorr)}}
+\renewcommand{\eqref}[1]{\textup{\reftagform@{\ref{#1}}}}
+\makeatother
+\usepackage{hyperref}
+\hypersetup{colorlinks=true}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% PREPARE TITLE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title{\blue  
+	\begin{figure}[h!]
+  		\centering
+    	\includegraphics[width=1\textwidth]{img/logo3}
+	\end{figure}
+	\blueb Battle of Origins | Alpha Release}
+\author{Patrick Misteli, Ruben Kälin, Jacqueline Staub, Gregory Wyss}
+\date{\today}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+	\maketitle
+	\hypersetup{linkcolor=MyColor1}	
+	
+	\tableofcontents
+	\newpage
+	
+	%\section{Overview}
+	
+	%In this document we will give a short overview of our progress for the interim release of our game \textit{Battle of Origins}. We will begin with a listing of our targets for every stage where we will highlight the completed, uncompleted and current targets. Afterwards we will list some of the difficulties we encountered in the programming/design areas graphics, artificial intelligence and game logic. At the end you can find the design revisions we decided for and the reasons for these revisions.
+
+	\section{Introduction}
+	This document describes the current working stage (Sec. \ref{sec:CurrStage}) and the progress that has been made between the interim release and the alpha release (Sec. \ref{Sec:ObstAndRevisions}). The ideal would be to have a stable alpha release to tweak in game values such as number of players, number of obstacles, time to create a wonder and so on. 
+	
+	\section{Current Stage}
+	\label{sec:CurrStage}
+	
+	\subsection{Task Distribution}
+	See Table \ref{table:taskallocProject}
+	\begin{table}[h!]\centering
+		\newcounter{taskId}
+		\setcounter{taskId}{0}
+		\begin{tabular}{r|p{10cm}|p{1.8cm}|c|c}
+			\textbf{Task} & \textbf{Description} & \textbf{Who} & \textbf{Hrs} & \textbf{Actual} \\
+			
+			\hline 
+			\cellcolor[gray]{0.8} & \multicolumn{4}{c}{\cellcolor[gray]{0.8} Idea Finding}\\
+			
+			\hline				
+			\rowcolor{green}		
+			\stepcounter{taskId}
+			\thetaskId . & Brainstorming Design &\centering  All & $5$ & $7$ \\
+			
+			\hline
+			\rowcolor{green}
+			\stepcounter{taskId}
+			\thetaskId . & Character modeling &\centering Greg, Jacq  & $20$ & $25$\\
+			
+			\hline 
+			\cellcolor[gray]{0.8} & \multicolumn{4}{c}{\cellcolor[gray]{0.8} Assignments}\\
+			
+			\hline
+			\rowcolor{green}
+			\stepcounter{taskId}
+			\thetaskId . & Project Proposal Draft & \centering  All & $10$ & $10$\\
+			
+			\hline
+			\rowcolor{green}
+			\stepcounter{taskId}
+			\thetaskId . & Prototype Chapter& \centering  All & $10$ & $10$\\
+			
+			\hline
+			\rowcolor{green}
+			\stepcounter{taskId}
+			\thetaskId . & Interim Report Chapter & \centering  All & $10$ & $10$\\
+			
+			\hline
+			\rowcolor{green}
+			\stepcounter{taskId}
+			\thetaskId . & Alpha Release Chapter & \centering  All & $10$ & $10$\\
+			
+			\hline
+			\stepcounter{taskId}
+			\thetaskId . & Playtest Chapter & \centering  All & $10$ &\\
+			
+			\hline
+			\stepcounter{taskId}
+			\thetaskId . & Conclusion Chapter & \centering  All & $10$ &\\
+			
+			\hline
+			\stepcounter{taskId}
+			\thetaskId . & Demo Video & \centering Patrick & $50$ &\\
+			
+			\hline 
+			\cellcolor[gray]{0.8} & \multicolumn{4}{c}{\cellcolor[gray]{0.8} Presentation and Demos}\\
+			
+			\hline
+			\rowcolor{green}
+			\stepcounter{taskId}
+			\thetaskId . & Pitch of the Game & \centering  All & $7$ & $7$\\
+			
+			\hline
+			\rowcolor{green}
+			\stepcounter{taskId}
+			\thetaskId . & Formal Game Proposal & \centering  All & $10$ & $12$\\
+			
+			\hline
+			\rowcolor{green}
+			\stepcounter{taskId}
+			\thetaskId . & Paper Prototype & \centering  Jacqueline & $5$ & $6$\\
+			
+			\hline
+			\rowcolor{green}
+			\stepcounter{taskId}
+			\thetaskId . & First Playable Demo & \centering  All & $30$ & $50$\\
+			
+			\hline
+			\rowcolor{green}
+			\stepcounter{taskId}
+			\thetaskId . & Interim Demo & \centering  All & $50$ & $80$\\
+			
+			\hline
+			\rowcolor{green}
+			\stepcounter{taskId}
+			\thetaskId . & Alpha Release Demo & \centering  All & $100$ & $50$ \\
+			
+			\hline
+			\stepcounter{taskId}
+			\thetaskId . & Play-test presentation & \centering  All & $75$ &\\
+			
+			\hline
+			\stepcounter{taskId}
+			\thetaskId . &Final Public Presentation & \centering  All & $40$ &\\
+			
+							\hline 
+				\cellcolor[gray]{0.8} & \multicolumn{4}{c}{\cellcolor[gray]{0.8} Functional Minimum}\\
+				
+				\hline
+				\rowcolor{green}
+				\stepcounter{taskId}
+				\thetaskId . & Players from two teams running around & \centering  All & $15$ & $15$\\
+				
+				\hline
+				\rowcolor{green}
+				\stepcounter{taskId}
+				\thetaskId . & Level Design: Overflow flat Map & \centering  All & $15$ & $7$\\
+				
+				
+				\hline
+				\rowcolor{green}
+				\stepcounter{taskId}
+				\thetaskId . & Counting collective hits & \centering  All & $15$ & $8$\\
+				
+				\hline
+				\rowcolor{green}
+				\stepcounter{taskId}
+				\thetaskId . & Game finishes after 8 min & \centering  All & $15$ &$10$\\
+				
+				
+				\hline
+				\rowcolor{green}
+				\stepcounter{taskId}
+				\thetaskId . & Winner is Team with most hits & \centering  All & $15$ &$14$\\
+				
+				\hline
+				\rowcolor{green}
+				\stepcounter{taskId}
+				\thetaskId . & AI Controlled Allies/Enemies. & \centering  Ruben & $15$ &$25$\\ 
+			
+		\end{tabular}
+		
+		\caption{\textit{Task allocation}  Green: Completed}
+		\label{table:taskallocProject}	
+	\end{table}	
+	
+	\newpage
+		
+		\subsection{Project Management}
+		See Table \ref{table:taskallocEngineer}
+		\begin{table}[H]\centering
+			\begin{tabular}{r|p{10cm}|p{1.8cm}|c|c}
+				\textbf{Task} & \textbf{Description} & \textbf{Who} & \textbf{Hrs} & \textbf{Actual} \\
+				
+				\hline 
+				\cellcolor[gray]{0.8} & \multicolumn{4}{c}{\cellcolor[gray]{0.8} Low Target}\\
+				
+				\hline
+				\rowcolor{green}
+				\stepcounter{taskId}
+				\thetaskId . & Audio: Music + Sound Effects & \centering  Patrick & $15$ & $2$\\
+				
+				\hline
+				\rowcolor{green}
+				\stepcounter{taskId}
+				\thetaskId . & Physics: Players flying away when hit & \centering  All & $15$ &$10$\\
+				
+				\hline
+				\rowcolor{green}
+				\stepcounter{taskId}
+				\thetaskId . & Physics: Cooldown before being able to move \& attack & \centering  All & $15$ &$17$\\
+				
+				\hline
+				\rowcolor{green}
+				\stepcounter{taskId}
+				\thetaskId . & Physics: Immunity cooldown before being vulnerable again & \centering  All & $15$ &$13$\\
+				
+				\hline
+				\rowcolor{green}
+				\stepcounter{taskId}
+				\thetaskId . & Wonder: Wonder is generated after every 50 collective hits & \centering  All & $15$ &$24$\\
+				
+				\hline
+				\rowcolor{green}
+				\stepcounter{taskId}
+				\thetaskId . & Wonder: Wonder is (visually) possessed by a human player & \centering  All & $15$ &$10$\\
+				
+				\hline
+				\rowcolor{green}
+				\stepcounter{taskId}
+				\thetaskId . & Wonder: Wonder can visually be cast & \centering  All & $15$ &$12$\\
+				
+				
+				\hline
+				\rowcolor{green}
+				\stepcounter{taskId}
+				\thetaskId . & Wonder: Wonder converts players & \centering  All & $15$ &$16$\\
+				
+				\hline
+				\rowcolor{green}
+				\stepcounter{taskId}
+				\thetaskId . & Wonder: Converted Human player plays for the other team & \centering  All & $15$ & $5$\\
+				
+				
+				\hline
+				\rowcolor{green}
+				\stepcounter{taskId}
+				\thetaskId . & Winner is the team with the most members & \centering  All & $15$ &$20$\\
+				
+				\hline
+				\rowcolor{green}
+				\stepcounter{taskId}
+				\thetaskId . & Level Design: Map includes obstacles & \centering  All & $15$ &$7$\\
+				
+				\hline 
+				\cellcolor[gray]{0.8} & \multicolumn{4}{c}{\cellcolor[gray]{0.8} Desired Target}\\
+
+				\hline
+				\rowcolor{green}
+				\stepcounter{taskId}
+				\thetaskId . & Characters visually polished to look from same theme & \centering Jacqueline, Gregory & $15$ & $150$\\
+				
+				\hline
+				\rowcolor{green}
+				\stepcounter{taskId}
+				\thetaskId . & Wonder Creation: Creating a wonder by standing together and pressing "commit" & \centering  All & $15$ & $11$\\
+				
+				\hline
+				\rowcolor{green}
+				\stepcounter{taskId}
+				\thetaskId . & Wonder Creation: Cooldown after releasing "commit" & \centering  All & $15$ & $14$\\
+				
+				\hline
+				\rowcolor{yellow}
+				\stepcounter{taskId}
+				\thetaskId . & Wonder Creation: Increased vulnerability during praying and cooldown & \centering  All & $15$ &\\
+				
+				\hline
+				\rowcolor{yellow}
+				\stepcounter{taskId}
+				\thetaskId . & Wonder Creation: Larger praying/studying circles will generate quicker progress & \centering  All & $15$ &\\
+				
+				\hline
+				\rowcolor{green}
+				\stepcounter{taskId}
+				\thetaskId . & Wonder Creation: AI upgrade to take wonder creation into account & \centering  All & $15$ & $20$\\			
+				
+				\hline 
+				\rowcolor{white}
+				\cellcolor[gray]{0.8} & \multicolumn{4}{c}{\cellcolor[gray]{0.8} High Target}\\
+				
+				\hline
+				\rowcolor{yellow}
+				\stepcounter{taskId}
+				\thetaskId . & Converted Human player will control free NPC if available & \centering  All & $15$ &\\
+				
+				\hline
+				\rowcolor{green}
+				\stepcounter{taskId}
+				\thetaskId . & Players evolve numerically according to their actions (Running, Shooting, Praying/Studying) & \centering  All & $15$ & $30$\\
+				
+				\hline
+				\rowcolor{yellow}
+				\stepcounter{taskId}
+				\thetaskId . & Players evolve visually & \centering  All & $15$ &\\
+				
+				
+				\hline 
+				\rowcolor{white}
+				\cellcolor[gray]{0.8} & \multicolumn{4}{c}{\cellcolor[gray]{0.8} Extras}\\
+				
+				\hline
+				\rowcolor{white}
+				\stepcounter{taskId}
+				\thetaskId . & Online Multiplayer & \centering  All & $15$ &\\			
+				
+				\hline
+				\rowcolor{white}
+				\stepcounter{taskId}
+				\thetaskId . & Procedural level-design (each level is different)& \centering  All & $15$ &\\		
+				
+				\hline
+				\rowcolor{white}
+				\stepcounter{taskId}
+				\thetaskId . & Classes of characters (specialized for praying/studying or shooting) & \centering  All & $15$ &\\			
+				
+				\end{tabular}
+				
+				\caption{\textit{Task allocation} Green: Completed, Yellow: in Progress}
+				\label{table:taskallocEngineer}	
+				\end{table}
+				
+				\newpage
+				
+				\subsection{Timeline}
+				See Table \ref{table:timeline1} and Table \ref{table:timeline2}
+				
+				
+				\begin{table}[H]\centering
+					\setcounter{taskId}{0}
+					\begin{tabular}{r|c|c|c|c|c|c|c|c|c|c|c|c|c|c}
+						\textbf{Task} & \textbf{W1} & \textbf{W2} & \textbf{W3} & \textbf{W4} & \textbf{W5} & \textbf{W6} & \textbf{W7} & \textbf{W8} & \textbf{W9} & \textbf{W10} & \textbf{W11} & \textbf{W12} & \textbf{W13} & \textbf{W14}\\
+						
+						\hline 
+						\cellcolor[gray]{0.8} & \multicolumn{14}{c}{\cellcolor[gray]{0.8} Idea Finding}\\
+						
+						\hline						
+						\stepcounter{taskId}
+						\thetaskId . & A & A & & & & & & & & & & & & \\
+						
+						\hline						
+						\stepcounter{taskId}
+						\thetaskId . & G & G & & & & & & & & & & & & \\
+						
+						\hline 
+						\cellcolor[gray]{0.8} & \multicolumn{14}{c}{\cellcolor[gray]{0.8} Assignments}\\
+						
+						\hline						
+						\stepcounter{taskId}
+						\thetaskId . & & A & A & & & & & & & & & & & \\
+						
+						\hline						
+						\stepcounter{taskId}
+						\thetaskId . & & & & J & A & & & & & & & & & \\
+						
+						\hline						
+						\stepcounter{taskId}
+						\thetaskId . & & & & & & A & A & A & A & & & & & \\
+						
+						\hline						
+						\stepcounter{taskId}
+						\thetaskId . & & & & & & & & & & A & A & & & \\
+						
+						\hline						
+						\stepcounter{taskId}
+						\thetaskId . & & & & & & & & & & & & A & & \\
+						
+						\hline						
+						\stepcounter{taskId}
+						\thetaskId . & & & & & & & & & & & & & A & A \\
+						
+						\hline						
+						\stepcounter{taskId}
+						\thetaskId . & & & & & & & & & & & & & A & A \\
+						
+						\hline 
+						\cellcolor[gray]{0.8} & \multicolumn{14}{c}{\cellcolor[gray]{0.8} Presentation and Demos}\\
+						
+						\hline						
+						\stepcounter{taskId}
+						\thetaskId . & A & & & & & & & & & & & & & \\
+						
+						\hline						
+						\stepcounter{taskId}
+						\thetaskId . & & & & A & & & & & & & & & & \\
+						
+						\hline						
+						\stepcounter{taskId}
+						\thetaskId . & & & & & & A & & & & & & & & \\
+						
+						\hline						
+						\stepcounter{taskId}
+						\thetaskId . & & & & & & & & & A & & & & & \\
+						
+						\hline						
+						\stepcounter{taskId}
+						\thetaskId . & & & & & & & & & & & A & & & \\
+						
+						\hline						
+						\stepcounter{taskId}
+						\thetaskId . & & & & & & & & & & & & A & & \\
+						
+						\hline						
+						\stepcounter{taskId}
+						\thetaskId . & & & & & & & & & & & & & & A \\
+						
+						\hline						
+						\stepcounter{taskId}
+						\thetaskId . & & & & & & & & & & & & & & A \\
+						
+						\end{tabular}
+						
+						\caption{\textit{Timeline\\ A = All, P = Patrick, R = Ruben, J = Jacqueline, G = Gregory}}
+						\label{table:timeline1}
+						\end{table} 
+						
+						%------------------
+						\begin{table}[H]\centering
+							\setcounter{taskId}{18}
+							\begin{tabular}{r|c|c|c|c|c|c|c|c|c|c|c|c|c|c}
+						\textbf{Task} & \textbf{W1} & \textbf{W2} & \textbf{W3} & \textbf{W4} & \textbf{W5} & \textbf{W6} & \textbf{W7} & \textbf{W8} & \textbf{W9} & \textbf{W10} & \textbf{W11} & \textbf{W12} & \textbf{W13} & \textbf{W14}\\
+						
+						\hline 
+						\cellcolor[gray]{0.8} & \multicolumn{14}{c}{\cellcolor[gray]{0.8} Functional Minimum}\\
+						\hline											
+						\thetaskId . & & & & & A & & & & & & & & & \\
+						
+						\hline						
+						\stepcounter{taskId}
+						\thetaskId . & & & & A & & & & & & & & & & \\
+						
+						\hline						
+						\stepcounter{taskId}
+						\thetaskId . & & & & & & A & & & & & & & & \\
+						
+						\hline						
+						\stepcounter{taskId}
+						\thetaskId . & & & & & & A & & & & & & & & \\
+						
+						\hline						
+						\stepcounter{taskId}
+						\thetaskId . & & & & & & A & & & & & & & & \\
+						
+						\hline						
+						\stepcounter{taskId}
+						\thetaskId . & & & & A & & & & & & & & & & \\
+						
+						
+						\hline 
+						\cellcolor[gray]{0.8} & \multicolumn{14}{c}{\cellcolor[gray]{0.8}Low Target}\\
+						
+						\hline						
+						\stepcounter{taskId}
+						\thetaskId . & & & & & & P & P & P & & & & & & \\
+						
+						\hline						
+						\stepcounter{taskId}
+						\thetaskId . & & & & & & A & & & & & & & & \\
+						
+						\hline						
+						\stepcounter{taskId}
+						\thetaskId . & & & & & & A & & & & & & & & \\
+						
+						\hline						
+						\stepcounter{taskId}
+						\thetaskId . & & & & & & A & & & & & & & & \\
+						
+						\hline						
+						\stepcounter{taskId}
+						\thetaskId . & & & & & & A & & & & & & & & \\
+						
+						\hline						
+						\stepcounter{taskId}
+						\thetaskId . & & & & & & A & & & & & & & & \\
+						
+						\hline						
+						\stepcounter{taskId}
+						\thetaskId . & & & & & & A & & & & & & & & \\
+						
+						\hline						
+						\stepcounter{taskId}
+						\thetaskId . & & & & & & A & & & & & & & & \\
+						
+						\hline						
+						\stepcounter{taskId}
+						\thetaskId . & & & & & & & A & & & & & & & \\
+						
+						\hline						
+						\stepcounter{taskId}
+						\thetaskId . & & & & & & A & & & & & & & & \\
+						
+						\hline						
+						\stepcounter{taskId}
+						\thetaskId . & & & & & & A & & & & & & & & \\
+						
+						\hline 
+						\cellcolor[gray]{0.8} & \multicolumn{14}{c}{\cellcolor[gray]{0.8} Desired Target}\\
+						
+						\hline						
+						\stepcounter{taskId}
+						\thetaskId . & & & & & & & & A & & & & & & \\
+						
+						\hline						
+						\stepcounter{taskId}
+						\thetaskId . & & & & & & & A & & & & & & & \\
+						
+						\hline						
+						\stepcounter{taskId}
+						\thetaskId . & & & & & & & & A & & & & & & \\
+						
+						\hline						
+						\stepcounter{taskId}
+						\thetaskId . & & & & & & & & A & & & & & & \\
+						
+						\hline						
+						\stepcounter{taskId}
+						\thetaskId . & & & & & & & & A & & & & & & \\
+						
+						\hline						
+						\stepcounter{taskId}
+						\thetaskId . & & & & & & & & A & & & & & & \\
+						
+						\hline 
+						\cellcolor[gray]{0.8} & \multicolumn{14}{c}{\cellcolor[gray]{0.8} High Target}\\
+						
+						\hline						
+						\stepcounter{taskId}
+						\thetaskId . & & & & & & & & & R & R & & & & \\
+						
+						\hline						
+						\stepcounter{taskId}
+						\thetaskId . & & & & & & & & & A & & & & & \\
+						
+						\hline						
+						\stepcounter{taskId}
+						\thetaskId . & & & & & & & & & A & A & & & & \\
+						
+						\hline 
+						\cellcolor[gray]{0.8} & \multicolumn{14}{c}{\cellcolor[gray]{0.8} Extras}\\
+						
+						\hline						
+						\stepcounter{taskId}
+						\thetaskId . & & & & & & & & & & & & & A & \\
+						
+						\hline						
+						\stepcounter{taskId}
+						\thetaskId . & & & & & & & & & & & & A & & \\
+						
+						\hline						
+						\stepcounter{taskId}
+						\thetaskId . & & & & & & & & & & & & A & & \\
+						
+					\end{tabular}
+					
+					\caption{\textit{Timeline\\ A = All, P = Patrick, R = Ruben, J = Jacqueline, G = Gregory}}
+					\label{table:timeline2}
+				\end{table} 
+
+
+	\newpage
+
+	\section{Obstacles and Revisions}
+	\label{Sec:ObstAndRevisions}
+
+	\subsection{Physics}
+		\subsubsection{Explosion Forces}
+			%Patrick
+			When an opponent is hit we want him and the surrounding opponents to fly away. Using the addExplosionForce would sometimes not affect an opponent within reach and the opponent would simply stand still. Furthermore we could not add a y force because of the NavMesh. The NavMesh is needed for the AI to find a path to their new target thus disabling it is not an option.\\
+			
+			\textbf{Approach 1:} We tried adding forces manually by calculating the vector going from the explosion origin to all surrounding targets. This did also not give us the desired result since adding a force in one frame would not affect a character enough to be noticed visually\\
+			
+			\textbf{Approach 2:} We increased the forces in approach 1 until we saw the characters visually move. The problem now was that the characters moved within one frame thus creating a teleportation effect rather than an explosion effect. Ultimately in the game this does not make a difference since after being hit the character should be moved to a location slightly further away and regain the ability to move after a short timeout. However due to visual aspect we decided to pursue the problem further\\
+			
+			\textbf{Approach 3:} After a hint from a teaching assistant we started a new project where we exclusively test explosion effects. Starting from 0 again we could determine a way to have the desired explosion effect without suffering any other major issues.\\
+			
+			\textbf{Solution:} Multiple factors have helped us getting the desired explosion effect. 
+			\begin{itemize}
+				\item Use addExplosionForce.
+				\item Make sure the distance of the explosion origin and the character is large enough. If the explosion takes place inside a collider of a character he is only partially affected since some forces cancel each other out.
+				\item Temporarily turn off NavMesh as soon as a character gets hit. This allows forces in the positive y direction.
+				\item Same Mass and Drag for all characters. This brings consistency over all characters.
+				\item Turn off root transformation in the animator. 
+				\item Temporarily turn off rotation freeze while in flight. This allows a stronger visual effect then the character is hurled and spun away.
+			\end{itemize}
+			When applying all these items a new problem arises. After a character has fallen a script will attempt to re-enable the NavMesh. However it can happen that a character flies unto a house or rock where the NavMesh cannot be enabled anymore. This was solved in two ways. The buildings have improved colliders (described in Section \ref{subsubsec:SpawningInBuilding}) which make landing on a building less likely. If it does happen a character is respawn after 10 seconds. Furthermore if the character is near the ground but cannot connect to the NavMesh the character is teleported to the nearest point on the NavMesh. The teleporting distance is mostly small enough to not be visually detectable.
+	\subsection{Sound}
+		\subsubsection{Animation Sound}
+			%Patrick
+			Adding a sound to a animation can be done in two ways. Adding it in the animation directly. This would require adapting all animations and gives very little control over the sounds within the game scripts. A second solution is to add a script to an animation which carries the audio source. For an inexplicable reason this is also not possible as the sound file cannot be loaded within an animation.\\
+		
+		\textbf{Solution:} We created a central audio manager that takes care of all the sounds and can be called from all scripts.
+		
+		\subsubsection{Walking Sound Overpowering}
+			\label{subsubsec:WalkingSoundOverpowering}
+			%Patrick
+			Having a walking sound for each character adds to the realism. However hearing the footsteps of potentially 100 characters results in a noisy clutter of sounds.\\ 
+			
+			\textbf{Solution:} The central audio manager keeps track of all walking characters and will play at most 5 walking sounds at the same time.
+		
+		\subsubsection{Creating a wonder Sound Overpowering}
+			%Patrick
+			Analogically to the problem described in Section \ref{subsubsec:WalkingSoundOverpowering} the same problem appears when generating a wonder. Every character can potentially create a wonder resulting in potentially hundreds of wonder-creating-sounds. \\
+			
+			\textbf{Solution:} (Same solution as in Section \ref{subsubsec:WalkingSoundOverpowering}. The central audio manager keeps track of all walking characters and will play at most 5 walking sounds at the same time.
+	
+	\subsection{In-Game}
+		\subsubsection{Spawning in Buildings/Rocks}
+			\label{subsubsec:SpawningInBuilding}
+			Characters sometimes spawn in buildings. We select a random point on the map but do not check whether this point is inside a building, rock or church. If a character is spawned inside such an object he cannot escape it\\
+			
+			\textbf{Solution: } The actual problem was that the NavMesh inside a building was determined as walkable since the buildings had no floor. After inserting a floor and adding a collider surrounding the building characters stopped spawning inside buildings.
+	
+		\subsubsection{Camera for Multi-Player}
+			%Ruben
+			Camera perspective: In a multiplayer setting, the camera needs to zoom in and out and move around according to the players positions. However, vertically the camera always showed more than the size we set it to.\\
+			
+			\textbf{Solution:} The reason for the difference between the vertical and the horizontal axis originated in the fact that our orthographic camera perspective was tilted by 45 degree. Thus, we had to divide the vertical axis by a factor of sqrt(2) in order to get consistency among the axis. 
+
+		\subsubsection{Human Creating Wonder}
+		%Ruben
+		The implementation of the praying mechanics for human players was difficult, because it is hard to guess the exact intention of the player. If the player wants to pray with an other player who is currently attacking it should fail, whereas if the other player also prays it must work. Moreover, finding all players close by is a costly operation and cannot be executed for each player at each update step.\\
+		
+		\textbf{Solution: } NPCs select a target to pray with and efficiently check if this target is eligible for praying and close enough. Since this trick does not work for human players we introduced a commit command. The close players are then only computed for players pressing the commit button. This provides an efficient enough solution that allows also human players to actively pray.
+		
+		
+	\subsection{Modeling and Animations}
+		\subsubsection{Rotated Model}
+			%Jacqueline
+			Unity and Blender do not use the same axes to to represent the three directions. Exporting a correctly oriented model from Blender to Unity resulted in a rotated model in Unity. This problem seems to be one of the things users of Blender just need to know, wile modelling. We did not find a script to resolve this issue.\\
+			 
+			\textbf{Solution:} We just rotated the model in Blender before exporting it to Unity. Furthermore we had to be careful to assign the correct up, and forward direction in the exportation process.
+			
+		\subsubsection{Left-Right, Up-Down Issue}
+		%Jacqueline
+		After the orientation of our models were correct we encountered the issue, that the model we wanted to use had the opposite top-down, left-right orientation. Since we have two models which should be controlled the same way their orientation should match, which was not the case.\\
+		
+		\textbf{Solution:} We resolved the issue by multiplying the X and Z axis by a factor of -1.
+		
+		\subsubsection{Unused Animations}
+			%Jacqueline
+			Animations are linked to a fake user in Blender, so they are really hard to delete afterwards. We tested some animations, we ultimately don't need anymore, but they were hard to get rid of since they were linked to the fake user. \\
+			
+				\textbf{Solution:} We decided to keep all animations. After the settings are made in the animation controller everything is fine anyway, and they might come in handy someday...
+		
+		\subsubsection{Scaling after Export from Maya}
+		%Gregory
+		We had the problem that each time we tried to import an animation from Autodesk Maya, while playing the animation the mesh of the character was scaled by a factor of 2.54. After several mails with our tutors and hours of internet research we found that after locking the character definition in Maya for some reason each bone was scaled by the mentioned factor. This problem could not be solved in Maya, because we did not find a solution.\\
+		
+		\textbf{Solution: } perform a little hack. As before we import the animations into Unity. Then we copy the animation clip in the FBX file and assign this animation to the animation controller. In the animation window of unity we could find scale properties in all imported animations that scale the whole mesh by 2.54 in all directions. So, we only removed the scaling properties in all animations.
+		
+		\subsubsection{Inverse Kinematics}
+		%Gregory
+		We used bought models that already included some basic animations. Nevertheless, we also wanted to edit these already existing animations or create new ones and use the predefined as a template. If such an FBX animation is loaded into Maya it appears as a forward kinematics animation with all the keyframes that rotate the joints. We would have liked to define a control rig for the existing skeleton, to edit the existing animations by using inverse kinematics, which is much simpler in our eyes. But when we created a control rig for the existing character definition all keyframes and therefore all animations were gone. \\
+		
+		\textbf{Solution: } no use of inverse kinematics (only forward kinematics)
+		when editing predefined animations.
+		
+		\subsubsection{Body parts growing}
+		%Gregory
+		As the skills of our characters are improving we want to visualize this process by dynamically enlarge hands representing higher shooting power, enlarge feet representing higher running speed and enlarge the head to represent higher praying/studying skills. Our character are built up hierarchically, so our initial idea was to use the localScale property of corresponding transforms. Unfortunately, this had no effect at all and we tried to find some answers in the internet. So, we removed any scaling properties from the animations so that no hierarchical scaling overwrites our changed localScale and also removed the animations to be sure they don't affect the scaling behavior. Then we tried to scale the body parts by first detaching the transforms from their parents, scale them using again the localScale properties and then re-attach them to their original parents. Until now none of these actions did help, we even tried to assign the localScale to itself in every Update() method as it was suggested in an answer of a forum.\\
+		
+		\textbf{Solution: } we still don't have a solution at the moment...
+		
+		\subsubsection{Shadows}
+		%Gregory
+		Leafs of trees we are using in our scene are rendered using sprites and do not cast shadows by default. Like this, only the trunk of each tree cast a shadow which resulted in a weird looking environment.\\
+		
+		\textbf{Solution: } We use a custom sprite shader that casts shadows of our leafs.
+			
+	\subsection{AI}
+	\subsubsection{Praying for Human Players}	
+
+	\section{Alpha Release Conclusion}
+	The problems we face are problems mostly deep in the code. While we do have a robust running system on the outside we strive to perfect and polish the details. These details also include choosing ideal parameters for the game such as number of players, duration of a match and number of human players. This will be approached with intensive testing which will be the next step in the project.
+
+	
+\end{document}}{den}
